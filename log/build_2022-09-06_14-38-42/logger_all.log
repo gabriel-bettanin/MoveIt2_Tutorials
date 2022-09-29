@@ -1,0 +1,290 @@
+[0.174s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--mixin', 'release']
+[0.174s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f180b5d3340>>, merge_install=False, metas=['./colcon.meta'], mixin=['release'], mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f180b5d3340>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f180b5d3910>)
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.231s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bettanin/ws_moveit2'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_tutorials) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_tutorials) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_tutorials) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_tutorials) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_tutorials) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_tutorials) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_tutorials) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit2_tutorials) by extension 'ros'
+[0.245s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit2_tutorials' with type 'ros.ament_cmake' and name 'moveit2_tutorials'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_visual_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_visual_tools) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_visual_tools) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_visual_tools) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_visual_tools) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_visual_tools) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_visual_tools) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_visual_tools) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_visual_tools) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit_visual_tools' with type 'ros.ament_cmake' and name 'moveit_visual_tools'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_visual_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_visual_tools) by extension 'ignore'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_visual_tools) by extension 'ignore_ament_install'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_visual_tools) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_visual_tools) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_visual_tools) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_visual_tools) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_visual_tools) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_visual_tools) by extension 'ros'
+[0.257s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rviz_visual_tools' with type 'ros.ament_cmake' and name 'rviz_visual_tools'
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.288s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 311 installed packages in /opt/ros/foxy
+[0.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'rviz_visual_tools' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'rviz_visual_tools' build argument 'cmake_target' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'rviz_visual_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'rviz_visual_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'rviz_visual_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'rviz_visual_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'rviz_visual_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'rviz_visual_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'rviz_visual_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.366s] DEBUG:colcon.colcon_core.verb:Building package 'rviz_visual_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bettanin/ws_moveit2/build/rviz_visual_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bettanin/ws_moveit2/install/rviz_visual_tools', 'merge_install': False, 'path': '/home/bettanin/ws_moveit2/src/rviz_visual_tools', 'symlink_install': False, 'test_result_base': None}
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'moveit_visual_tools' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.366s] Level 5:colcon.colcon_core.verb:set package 'moveit_visual_tools' build argument 'cmake_target' from command line to 'None'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'moveit_visual_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'moveit_visual_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'moveit_visual_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'moveit_visual_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'moveit_visual_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'moveit_visual_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'moveit_visual_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.367s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_visual_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bettanin/ws_moveit2/build/moveit_visual_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bettanin/ws_moveit2/install/moveit_visual_tools', 'merge_install': False, 'path': '/home/bettanin/ws_moveit2/src/moveit_visual_tools', 'symlink_install': False, 'test_result_base': None}
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'moveit2_tutorials' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'moveit2_tutorials' build argument 'cmake_target' from command line to 'None'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'moveit2_tutorials' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'moveit2_tutorials' build argument 'cmake_clean_cache' from command line to 'False'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'moveit2_tutorials' build argument 'cmake_clean_first' from command line to 'False'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'moveit2_tutorials' build argument 'cmake_force_configure' from command line to 'False'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'moveit2_tutorials' build argument 'ament_cmake_args' from command line to 'None'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'moveit2_tutorials' build argument 'catkin_cmake_args' from command line to 'None'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'moveit2_tutorials' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.368s] DEBUG:colcon.colcon_core.verb:Building package 'moveit2_tutorials' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bettanin/ws_moveit2/build/moveit2_tutorials', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bettanin/ws_moveit2/install/moveit2_tutorials', 'merge_install': False, 'path': '/home/bettanin/ws_moveit2/src/moveit2_tutorials', 'symlink_install': False, 'test_result_base': None}
+[0.368s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.372s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.372s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bettanin/ws_moveit2/src/rviz_visual_tools' with build type 'ament_cmake'
+[0.372s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bettanin/ws_moveit2/src/rviz_visual_tools'
+[0.379s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.379s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.379s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bettanin/ws_moveit2/build/rviz_visual_tools': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/bettanin/ws_moveit2/src/rviz_visual_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bettanin/ws_moveit2/install/rviz_visual_tools
+[4.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bettanin/ws_moveit2/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/bettanin/ws_moveit2/src/rviz_visual_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bettanin/ws_moveit2/install/rviz_visual_tools
+[4.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bettanin/ws_moveit2/build/rviz_visual_tools': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/bettanin/ws_moveit2/build/rviz_visual_tools -- -j8 -l8
+[35.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bettanin/ws_moveit2/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/bettanin/ws_moveit2/build/rviz_visual_tools -- -j8 -l8
+[35.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bettanin/ws_moveit2/build/rviz_visual_tools': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/bettanin/ws_moveit2/build/rviz_visual_tools
+[35.353s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rviz_visual_tools)
+[35.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bettanin/ws_moveit2/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/bettanin/ws_moveit2/build/rviz_visual_tools
+[35.366s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/rviz_visual_tools' for CMake module files
+[35.366s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/rviz_visual_tools' for CMake config files
+[35.366s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_visual_tools', 'cmake_prefix_path')
+[35.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/hook/cmake_prefix_path.ps1'
+[35.369s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/hook/cmake_prefix_path.dsv'
+[35.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/hook/cmake_prefix_path.sh'
+[35.370s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib'
+[35.370s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_visual_tools', 'ld_library_path_lib')
+[35.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/hook/ld_library_path_lib.ps1'
+[35.372s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/hook/ld_library_path_lib.dsv'
+[35.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/hook/ld_library_path_lib.sh'
+[35.372s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/rviz_visual_tools/bin'
+[35.372s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib/pkgconfig/rviz_visual_tools.pc'
+[35.372s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib/python3.8/site-packages'
+[35.373s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/rviz_visual_tools/bin'
+[35.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/package.ps1'
+[35.375s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/package.dsv'
+[35.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/package.sh'
+[35.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/package.bash'
+[35.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/package.zsh'
+[35.378s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bettanin/ws_moveit2/install/rviz_visual_tools/share/colcon-core/packages/rviz_visual_tools)
+[35.434s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rviz_visual_tools)
+[35.436s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/rviz_visual_tools' for CMake module files
+[35.436s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/rviz_visual_tools' for CMake config files
+[35.437s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_visual_tools', 'cmake_prefix_path')
+[35.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/hook/cmake_prefix_path.ps1'
+[35.438s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/hook/cmake_prefix_path.dsv'
+[35.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/hook/cmake_prefix_path.sh'
+[35.439s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib'
+[35.439s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_visual_tools', 'ld_library_path_lib')
+[35.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/hook/ld_library_path_lib.ps1'
+[35.441s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/hook/ld_library_path_lib.dsv'
+[35.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/hook/ld_library_path_lib.sh'
+[35.441s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/rviz_visual_tools/bin'
+[35.441s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib/pkgconfig/rviz_visual_tools.pc'
+[35.441s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib/python3.8/site-packages'
+[35.442s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/rviz_visual_tools/bin'
+[35.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/package.ps1'
+[35.460s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/package.dsv'
+[35.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/package.sh'
+[35.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/package.bash'
+[35.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/package.zsh'
+[35.462s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bettanin/ws_moveit2/install/rviz_visual_tools/share/colcon-core/packages/rviz_visual_tools)
+[35.463s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bettanin/ws_moveit2/src/moveit_visual_tools' with build type 'ament_cmake'
+[35.463s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bettanin/ws_moveit2/src/moveit_visual_tools'
+[35.465s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[35.465s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[35.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bettanin/ws_moveit2/build/moveit_visual_tools': AMENT_PREFIX_PATH=/home/bettanin/ws_moveit2/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy LD_LIBRARY_PATH=/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/bettanin/ws_moveit2/src/moveit_visual_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bettanin/ws_moveit2/install/moveit_visual_tools
+[41.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bettanin/ws_moveit2/build/moveit_visual_tools' returned '0': AMENT_PREFIX_PATH=/home/bettanin/ws_moveit2/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy LD_LIBRARY_PATH=/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/bettanin/ws_moveit2/src/moveit_visual_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bettanin/ws_moveit2/install/moveit_visual_tools
+[41.980s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bettanin/ws_moveit2/build/moveit_visual_tools': AMENT_PREFIX_PATH=/home/bettanin/ws_moveit2/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy LD_LIBRARY_PATH=/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/bettanin/ws_moveit2/build/moveit_visual_tools -- -j8 -l8
+[72.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bettanin/ws_moveit2/build/moveit_visual_tools' returned '0': AMENT_PREFIX_PATH=/home/bettanin/ws_moveit2/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy LD_LIBRARY_PATH=/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/bettanin/ws_moveit2/build/moveit_visual_tools -- -j8 -l8
+[72.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bettanin/ws_moveit2/build/moveit_visual_tools': AMENT_PREFIX_PATH=/home/bettanin/ws_moveit2/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy LD_LIBRARY_PATH=/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/bettanin/ws_moveit2/build/moveit_visual_tools
+[72.950s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_visual_tools)
+[72.953s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/moveit_visual_tools' for CMake module files
+[72.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bettanin/ws_moveit2/build/moveit_visual_tools' returned '0': AMENT_PREFIX_PATH=/home/bettanin/ws_moveit2/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy LD_LIBRARY_PATH=/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/bettanin/ws_moveit2/build/moveit_visual_tools
+[72.954s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/moveit_visual_tools' for CMake config files
+[72.954s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_visual_tools', 'cmake_prefix_path')
+[72.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/hook/cmake_prefix_path.ps1'
+[72.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/hook/cmake_prefix_path.dsv'
+[72.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/hook/cmake_prefix_path.sh'
+[72.958s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/moveit_visual_tools/lib'
+[72.958s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_visual_tools', 'ld_library_path_lib')
+[72.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/hook/ld_library_path_lib.ps1'
+[72.960s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/hook/ld_library_path_lib.dsv'
+[72.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/hook/ld_library_path_lib.sh'
+[72.961s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/moveit_visual_tools/bin'
+[72.961s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/moveit_visual_tools/lib/pkgconfig/moveit_visual_tools.pc'
+[72.962s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/moveit_visual_tools/lib/python3.8/site-packages'
+[72.962s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/moveit_visual_tools/bin'
+[72.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/package.ps1'
+[72.964s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/package.dsv'
+[72.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/package.sh'
+[72.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/package.bash'
+[72.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/package.zsh'
+[72.966s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bettanin/ws_moveit2/install/moveit_visual_tools/share/colcon-core/packages/moveit_visual_tools)
+[73.009s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_visual_tools)
+[73.012s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/moveit_visual_tools' for CMake module files
+[73.013s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/moveit_visual_tools' for CMake config files
+[73.013s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_visual_tools', 'cmake_prefix_path')
+[73.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/hook/cmake_prefix_path.ps1'
+[73.016s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/hook/cmake_prefix_path.dsv'
+[73.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/hook/cmake_prefix_path.sh'
+[73.017s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/moveit_visual_tools/lib'
+[73.017s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_visual_tools', 'ld_library_path_lib')
+[73.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/hook/ld_library_path_lib.ps1'
+[73.019s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/hook/ld_library_path_lib.dsv'
+[73.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/hook/ld_library_path_lib.sh'
+[73.020s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/moveit_visual_tools/bin'
+[73.020s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/moveit_visual_tools/lib/pkgconfig/moveit_visual_tools.pc'
+[73.021s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/moveit_visual_tools/lib/python3.8/site-packages'
+[73.021s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/moveit_visual_tools/bin'
+[73.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/package.ps1'
+[73.023s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/package.dsv'
+[73.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/package.sh'
+[73.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/package.bash'
+[73.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/package.zsh'
+[73.026s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bettanin/ws_moveit2/install/moveit_visual_tools/share/colcon-core/packages/moveit_visual_tools)
+[73.026s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bettanin/ws_moveit2/src/moveit2_tutorials' with build type 'ament_cmake'
+[73.026s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bettanin/ws_moveit2/src/moveit2_tutorials'
+[73.028s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[73.028s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[73.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bettanin/ws_moveit2/build/moveit2_tutorials': AMENT_PREFIX_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy LD_LIBRARY_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools/lib:/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/bettanin/ws_moveit2/src/moveit2_tutorials -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bettanin/ws_moveit2/install/moveit2_tutorials
+[84.415s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bettanin/ws_moveit2/build/moveit2_tutorials' returned '0': AMENT_PREFIX_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy LD_LIBRARY_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools/lib:/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/bettanin/ws_moveit2/src/moveit2_tutorials -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bettanin/ws_moveit2/install/moveit2_tutorials
+[84.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bettanin/ws_moveit2/build/moveit2_tutorials': AMENT_PREFIX_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy LD_LIBRARY_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools/lib:/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/bettanin/ws_moveit2/build/moveit2_tutorials -- -j8 -l8
+[114.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bettanin/ws_moveit2/build/moveit2_tutorials' returned '0': AMENT_PREFIX_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy LD_LIBRARY_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools/lib:/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/bettanin/ws_moveit2/build/moveit2_tutorials -- -j8 -l8
+[114.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bettanin/ws_moveit2/build/moveit2_tutorials': AMENT_PREFIX_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy LD_LIBRARY_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools/lib:/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/bettanin/ws_moveit2/build/moveit2_tutorials
+[114.476s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit2_tutorials)
+[114.478s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/moveit2_tutorials' for CMake module files
+[114.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bettanin/ws_moveit2/build/moveit2_tutorials' returned '0': AMENT_PREFIX_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy LD_LIBRARY_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools/lib:/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/bettanin/ws_moveit2/build/moveit2_tutorials
+[114.479s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/moveit2_tutorials' for CMake config files
+[114.479s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit2_tutorials', 'cmake_prefix_path')
+[114.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/hook/cmake_prefix_path.ps1'
+[114.481s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/hook/cmake_prefix_path.dsv'
+[114.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/hook/cmake_prefix_path.sh'
+[114.482s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/moveit2_tutorials/lib'
+[114.482s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/moveit2_tutorials/bin'
+[114.482s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/pkgconfig/moveit2_tutorials.pc'
+[114.482s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/python3.8/site-packages'
+[114.482s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/moveit2_tutorials/bin'
+[114.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/package.ps1'
+[114.484s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/package.dsv'
+[114.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/package.sh'
+[114.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/package.bash'
+[114.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/package.zsh'
+[114.485s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bettanin/ws_moveit2/install/moveit2_tutorials/share/colcon-core/packages/moveit2_tutorials)
+[114.512s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit2_tutorials)
+[114.514s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/moveit2_tutorials' for CMake module files
+[114.515s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/moveit2_tutorials' for CMake config files
+[114.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit2_tutorials', 'cmake_prefix_path')
+[114.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/hook/cmake_prefix_path.ps1'
+[114.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/hook/cmake_prefix_path.dsv'
+[114.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/hook/cmake_prefix_path.sh'
+[114.518s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/moveit2_tutorials/lib'
+[114.518s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/moveit2_tutorials/bin'
+[114.518s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/pkgconfig/moveit2_tutorials.pc'
+[114.518s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/python3.8/site-packages'
+[114.518s] Level 1:colcon.colcon_core.environment:checking '/home/bettanin/ws_moveit2/install/moveit2_tutorials/bin'
+[114.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/package.ps1'
+[114.520s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/package.dsv'
+[114.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/package.sh'
+[114.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/package.bash'
+[114.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/package.zsh'
+[114.521s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bettanin/ws_moveit2/install/moveit2_tutorials/share/colcon-core/packages/moveit2_tutorials)
+[114.521s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[114.522s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[114.522s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[114.522s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[114.530s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[114.530s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[114.531s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[114.543s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[114.544s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bettanin/ws_moveit2/install/local_setup.ps1'
+[114.545s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bettanin/ws_moveit2/install/_local_setup_util_ps1.py'
+[114.546s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bettanin/ws_moveit2/install/setup.ps1'
+[114.548s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bettanin/ws_moveit2/install/local_setup.sh'
+[114.548s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bettanin/ws_moveit2/install/_local_setup_util_sh.py'
+[114.549s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bettanin/ws_moveit2/install/setup.sh'
+[114.550s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bettanin/ws_moveit2/install/local_setup.bash'
+[114.551s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bettanin/ws_moveit2/install/setup.bash'
+[114.552s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bettanin/ws_moveit2/install/local_setup.zsh'
+[114.553s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bettanin/ws_moveit2/install/setup.zsh'

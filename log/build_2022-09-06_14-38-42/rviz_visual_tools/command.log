@@ -1,0 +1,6 @@
+Invoking command in '/home/bettanin/ws_moveit2/build/rviz_visual_tools': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/bettanin/ws_moveit2/src/rviz_visual_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bettanin/ws_moveit2/install/rviz_visual_tools
+Invoked command in '/home/bettanin/ws_moveit2/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/bettanin/ws_moveit2/src/rviz_visual_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bettanin/ws_moveit2/install/rviz_visual_tools
+Invoking command in '/home/bettanin/ws_moveit2/build/rviz_visual_tools': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/bettanin/ws_moveit2/build/rviz_visual_tools -- -j8 -l8
+Invoked command in '/home/bettanin/ws_moveit2/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/bettanin/ws_moveit2/build/rviz_visual_tools -- -j8 -l8
+Invoking command in '/home/bettanin/ws_moveit2/build/rviz_visual_tools': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/bettanin/ws_moveit2/build/rviz_visual_tools
+Invoked command in '/home/bettanin/ws_moveit2/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/bettanin/ws_moveit2/build/rviz_visual_tools

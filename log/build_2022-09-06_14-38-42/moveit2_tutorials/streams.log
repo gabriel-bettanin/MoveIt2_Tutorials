@@ -1,0 +1,181 @@
+[0.013s] Invoking command in '/home/bettanin/ws_moveit2/build/moveit2_tutorials': AMENT_PREFIX_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy LD_LIBRARY_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools/lib:/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/bettanin/ws_moveit2/src/moveit2_tutorials -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bettanin/ws_moveit2/install/moveit2_tutorials
+[0.063s] -- The C compiler identification is GNU 9.4.0
+[0.114s] -- The CXX compiler identification is GNU 9.4.0
+[0.118s] -- Check for working C compiler: /usr/bin/cc
+[0.182s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.183s] -- Detecting C compiler ABI info
+[0.250s] -- Detecting C compiler ABI info - done
+[0.263s] -- Detecting C compile features
+[0.263s] -- Detecting C compile features - done
+[0.266s] -- Check for working CXX compiler: /usr/bin/c++
+[0.347s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.348s] -- Detecting CXX compiler ABI info
+[0.426s] -- Detecting CXX compiler ABI info - done
+[0.437s] -- Detecting CXX compile features
+[0.438s] -- Detecting CXX compile features - done
+[0.440s] -- Found moveit_common: 2.2.3 (/opt/ros/foxy/share/moveit_common/cmake)
+[0.442s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.465s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.465s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.974s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time thread 
+[0.977s] -- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)
+[1.008s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.015s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.090s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.119s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.191s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.586s] -- Found moveit_core: 2.2.3 (/opt/ros/foxy/share/moveit_core/cmake)
+[1.601s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.619s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem 
+[1.683s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.685s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.686s] -- Found Threads: TRUE  
+[1.885s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.050s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[3.596s] -- Found moveit_ros_planning: 2.2.3 (/opt/ros/foxy/share/moveit_ros_planning/cmake)
+[3.601s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread chrono 
+[3.852s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+[4.403s] -- Found moveit_ros_planning_interface: 2.2.3 (/opt/ros/foxy/share/moveit_ros_planning_interface/cmake)
+[4.406s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[4.411s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: date_time filesystem program_options system thread 
+[4.746s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread system filesystem regex date_time program_options 
+[5.086s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread 
+[5.640s] -- Found moveit_ros_perception: 2.2.3 (/opt/ros/foxy/share/moveit_ros_perception/cmake)
+[5.643s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+[6.155s] -- Found moveit_servo: 2.2.3 (/opt/ros/foxy/share/moveit_servo/cmake)
+[6.417s] -- Found interactive_markers: 2.1.3 (/opt/ros/foxy/share/interactive_markers/cmake)
+[6.437s] -- Found rviz_visual_tools: 4.0.3 (/home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/cmake)
+[6.533s] -- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[6.535s] -- Found OGRE
+[6.536s] --   static     : OFF
+[6.536s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[6.536s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[6.536s] --   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media
+[6.536s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[6.536s] -- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib
+[6.536s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[6.536s] -- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE
+[6.536s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[6.537s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[6.537s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[6.537s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[6.555s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[6.560s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[6.646s] -- Found X11: /usr/include   
+[6.646s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[6.718s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[6.718s] -- Looking for gethostbyname
+[6.783s] -- Looking for gethostbyname - found
+[6.783s] -- Looking for connect
+[6.849s] -- Looking for connect - found
+[6.849s] -- Looking for remove
+[6.915s] -- Looking for remove - found
+[6.915s] -- Looking for shmat
+[6.980s] -- Looking for shmat - found
+[6.981s] -- Looking for IceConnectionNumber in ICE
+[7.047s] -- Looking for IceConnectionNumber in ICE - found
+[7.050s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[7.050s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[7.104s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[7.501s] -- Found moveit_visual_tools: 4.0.0 (/home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake)
+[10.672s] -- Configuring done
+[11.363s] -- Generating done
+[11.366s] -- Build files have been written to: /home/bettanin/ws_moveit2/build/moveit2_tutorials
+[11.384s] Invoked command in '/home/bettanin/ws_moveit2/build/moveit2_tutorials' returned '0': AMENT_PREFIX_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy LD_LIBRARY_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools/lib:/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/bettanin/ws_moveit2/src/moveit2_tutorials -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/bettanin/ws_moveit2/install/moveit2_tutorials
+[11.387s] Invoking command in '/home/bettanin/ws_moveit2/build/moveit2_tutorials': AMENT_PREFIX_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy LD_LIBRARY_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools/lib:/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/bettanin/ws_moveit2/build/moveit2_tutorials -- -j8 -l8
+[11.441s] [35m[1mScanning dependencies of target planning_scene_tutorial[0m
+[11.442s] [35m[1mScanning dependencies of target move_group_interface_tutorial[0m
+[11.442s] [35m[1mScanning dependencies of target motion_planning_api_tutorial[0m
+[11.442s] [35m[1mScanning dependencies of target moveit_cpp_tutorial[0m
+[11.442s] [35m[1mScanning dependencies of target servo_keyboard_input[0m
+[11.442s] [35m[1mScanning dependencies of target servo_cpp_interface_demo[0m
+[11.442s] [35m[1mScanning dependencies of target planning_scene_ros_api_tutorial[0m
+[11.445s] [35m[1mScanning dependencies of target robot_model_and_robot_state_tutorial[0m
+[11.529s] [  6%] [32mBuilding CXX object doc/realtime_servo/CMakeFiles/servo_keyboard_input.dir/src/servo_keyboard_input.cpp.o[0m
+[11.589s] [ 12%] [32mBuilding CXX object doc/planning_scene/CMakeFiles/planning_scene_tutorial.dir/src/planning_scene_tutorial.cpp.o[0m
+[11.597s] [ 18%] [32mBuilding CXX object doc/planning_scene_ros_api/CMakeFiles/planning_scene_ros_api_tutorial.dir/src/planning_scene_ros_api_tutorial.cpp.o[0m
+[11.600s] [ 25%] [32mBuilding CXX object doc/robot_model_and_robot_state/CMakeFiles/robot_model_and_robot_state_tutorial.dir/src/robot_model_and_robot_state_tutorial.cpp.o[0m
+[11.617s] [ 31%] [32mBuilding CXX object doc/realtime_servo/CMakeFiles/servo_cpp_interface_demo.dir/src/servo_cpp_interface_demo.cpp.o[0m
+[11.665s] [ 37%] [32mBuilding CXX object doc/moveit_cpp/CMakeFiles/moveit_cpp_tutorial.dir/src/moveit_cpp_tutorial.cpp.o[0m
+[11.672s] [ 43%] [32mBuilding CXX object doc/motion_planning_api/CMakeFiles/motion_planning_api_tutorial.dir/src/motion_planning_api_tutorial.cpp.o[0m
+[11.689s] [ 50%] [32mBuilding CXX object doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/src/move_group_interface_tutorial.cpp.o[0m
+[22.490s] [ 56%] [32m[1mLinking CXX executable servo_keyboard_input[0m
+[23.516s] [ 56%] Built target servo_keyboard_input
+[25.087s] [ 62%] [32m[1mLinking CXX executable robot_model_and_robot_state_tutorial[0m
+[26.229s] [ 62%] Built target robot_model_and_robot_state_tutorial
+[26.571s] [ 68%] [32m[1mLinking CXX executable planning_scene_tutorial[0m
+[27.443s] [ 68%] Built target planning_scene_tutorial
+[33.314s] [ 75%] [32m[1mLinking CXX executable planning_scene_ros_api_tutorial[0m
+[33.392s] [ 81%] [32m[1mLinking CXX executable move_group_interface_tutorial[0m
+[34.784s] [ 81%] Built target move_group_interface_tutorial
+[34.970s] [ 81%] Built target planning_scene_ros_api_tutorial
+[36.295s] [ 87%] [32m[1mLinking CXX executable moveit_cpp_tutorial[0m
+[36.318s] [ 93%] [32m[1mLinking CXX executable servo_cpp_interface_demo[0m
+[37.217s] [ 93%] Built target servo_cpp_interface_demo
+[37.481s] [ 93%] Built target moveit_cpp_tutorial
+[40.385s] [100%] [32m[1mLinking CXX executable motion_planning_api_tutorial[0m
+[41.373s] [100%] Built target motion_planning_api_tutorial
+[41.388s] Invoked command in '/home/bettanin/ws_moveit2/build/moveit2_tutorials' returned '0': AMENT_PREFIX_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy LD_LIBRARY_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools/lib:/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/bettanin/ws_moveit2/build/moveit2_tutorials -- -j8 -l8
+[41.422s] Invoking command in '/home/bettanin/ws_moveit2/build/moveit2_tutorials': AMENT_PREFIX_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy LD_LIBRARY_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools/lib:/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/bettanin/ws_moveit2/build/moveit2_tutorials
+[41.431s] -- Install configuration: "Release"
+[41.431s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/ament_index/resource_index/package_run_dependencies/moveit2_tutorials
+[41.431s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/ament_index/resource_index/parent_prefix_path/moveit2_tutorials
+[41.431s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/environment/ament_prefix_path.sh
+[41.432s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/environment/ament_prefix_path.dsv
+[41.432s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/environment/path.sh
+[41.432s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/environment/path.dsv
+[41.432s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.bash
+[41.432s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.sh
+[41.432s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.zsh
+[41.432s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.dsv
+[41.433s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/package.dsv
+[41.433s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/ament_index/resource_index/packages/moveit2_tutorials
+[41.433s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake
+[41.433s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/cmake/ament_cmake_export_include_directories-extras.cmake
+[41.434s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/cmake/moveit2_tutorialsConfig.cmake
+[41.434s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/cmake/moveit2_tutorialsConfig-version.cmake
+[41.434s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/package.xml
+[41.434s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/motion_planning_api_tutorial
+[41.435s] -- Set runtime path of "/home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/motion_planning_api_tutorial" to ""
+[41.436s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[41.436s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/motion_planning_api_tutorial.launch.py
+[41.436s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/move_group_interface_tutorial
+[41.436s] -- Set runtime path of "/home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/move_group_interface_tutorial" to ""
+[41.436s] -- Up-to-date: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[41.437s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group.launch.py
+[41.437s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group_interface_tutorial.launch.py
+[41.437s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group.rviz
+[41.437s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/moveit_cpp_tutorial
+[41.438s] -- Set runtime path of "/home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/moveit_cpp_tutorial" to ""
+[41.438s] -- Up-to-date: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[41.438s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/moveit_cpp_tutorial.launch.py
+[41.438s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/moveit_cpp_tutorial.rviz
+[41.438s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/config
+[41.438s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/config/moveit_cpp.yaml
+[41.438s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/planning_scene_tutorial
+[41.439s] -- Set runtime path of "/home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/planning_scene_tutorial" to ""
+[41.439s] -- Up-to-date: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[41.439s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/planning_scene_tutorial.launch.py
+[41.439s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/planning_scene_ros_api_tutorial
+[41.440s] -- Set runtime path of "/home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/planning_scene_ros_api_tutorial" to ""
+[41.440s] -- Up-to-date: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[41.440s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/planning_scene_ros_api_tutorial.launch.py
+[41.440s] -- Up-to-date: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[41.441s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/demo.launch.py
+[41.441s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/panda_moveit_config_demo_empty.rviz
+[41.441s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/panda_moveit_config_demo.rviz
+[41.441s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/servo_keyboard_input
+[41.442s] -- Set runtime path of "/home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/servo_keyboard_input" to ""
+[41.442s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/servo_cpp_interface_demo
+[41.442s] -- Set runtime path of "/home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/servo_cpp_interface_demo" to ""
+[41.443s] -- Up-to-date: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[41.443s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/servo_teleop.launch.py
+[41.443s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/servo_server_panda.launch.py
+[41.443s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/servo_cpp_interface_demo.launch.py
+[41.443s] -- Up-to-date: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/config
+[41.443s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/config/demo_rviz_config.rviz
+[41.443s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/robot_model_and_robot_state_tutorial
+[41.444s] -- Set runtime path of "/home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/robot_model_and_robot_state_tutorial" to ""
+[41.444s] -- Up-to-date: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[41.444s] -- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/robot_model_and_robot_state_tutorial.launch.py
+[41.448s] Invoked command in '/home/bettanin/ws_moveit2/build/moveit2_tutorials' returned '0': AMENT_PREFIX_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy LD_LIBRARY_PATH=/home/bettanin/ws_moveit2/install/moveit_visual_tools/lib:/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/bettanin/ws_moveit2/build/moveit2_tutorials

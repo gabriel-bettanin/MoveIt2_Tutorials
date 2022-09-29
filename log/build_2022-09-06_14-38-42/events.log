@@ -1,0 +1,1694 @@
+[0.000000] (-) TimerEvent: {}
+[0.000114] (rviz_visual_tools) JobQueued: {'identifier': 'rviz_visual_tools', 'dependencies': OrderedDict()}
+[0.000146] (moveit_visual_tools) JobQueued: {'identifier': 'moveit_visual_tools', 'dependencies': OrderedDict([('rviz_visual_tools', '/home/bettanin/ws_moveit2/install/rviz_visual_tools')])}
+[0.000198] (moveit2_tutorials) JobQueued: {'identifier': 'moveit2_tutorials', 'dependencies': OrderedDict([('rviz_visual_tools', '/home/bettanin/ws_moveit2/install/rviz_visual_tools'), ('moveit_visual_tools', '/home/bettanin/ws_moveit2/install/moveit_visual_tools')])}
+[0.000224] (rviz_visual_tools) JobStarted: {'identifier': 'rviz_visual_tools'}
+[0.014098] (rviz_visual_tools) JobProgress: {'identifier': 'rviz_visual_tools', 'progress': 'cmake'}
+[0.014473] (rviz_visual_tools) Command: {'cmd': ['/usr/bin/cmake', '/home/bettanin/ws_moveit2/src/rviz_visual_tools', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_INSTALL_PREFIX=/home/bettanin/ws_moveit2/install/rviz_visual_tools'], 'cwd': '/home/bettanin/ws_moveit2/build/rviz_visual_tools', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bettanin'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1760'), ('XDG_SESSION_TYPE', 'x11'), ('KIGITHUB', 'https://github.com/KiCad'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bettanin'), ('OLDPWD', '/home/bettanin/ws_moveit2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1467'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bettanin'), ('JOURNAL_STREAM', '8:54361'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'bettanin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1809,unix/ubuntu:/tmp/.ICE-unix/1809'), ('INVOCATION_ID', '4a2b9615da8043bd945bae0d5ea9b828'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/14bc55e0_d3aa_4d97_ad83_3439e1b14a34'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bettanin/ws_moveit2/build/rviz_visual_tools'), ('KICAD_PATH', '/usr/share/kicad'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099549] (-) TimerEvent: {}
+[0.200483] (-) TimerEvent: {}
+[0.301172] (-) TimerEvent: {}
+[0.377447] (rviz_visual_tools) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.401309] (-) TimerEvent: {}
+[0.501897] (-) TimerEvent: {}
+[0.602463] (-) TimerEvent: {}
+[0.622170] (rviz_visual_tools) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.632376] (rviz_visual_tools) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.700280] (rviz_visual_tools) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.701780] (rviz_visual_tools) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.702567] (-) TimerEvent: {}
+[0.774626] (rviz_visual_tools) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.786761] (rviz_visual_tools) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.787394] (rviz_visual_tools) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.790618] (rviz_visual_tools) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.802691] (-) TimerEvent: {}
+[0.867252] (rviz_visual_tools) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.868232] (rviz_visual_tools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.902825] (-) TimerEvent: {}
+[0.952029] (rviz_visual_tools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.962188] (rviz_visual_tools) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.962670] (rviz_visual_tools) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.000021] (rviz_visual_tools) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.003019] (-) TimerEvent: {}
+[1.049287] (rviz_visual_tools) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.049605] (rviz_visual_tools) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.103137] (-) TimerEvent: {}
+[1.203402] (-) TimerEvent: {}
+[1.268363] (rviz_visual_tools) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.303521] (-) TimerEvent: {}
+[1.330393] (rviz_visual_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.339340] (rviz_visual_tools) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.403702] (-) TimerEvent: {}
+[1.476817] (rviz_visual_tools) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.503818] (-) TimerEvent: {}
+[1.504833] (rviz_visual_tools) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.584636] (rviz_visual_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.603925] (-) TimerEvent: {}
+[1.646805] (rviz_visual_tools) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.648845] (rviz_visual_tools) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.650473] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.704065] (-) TimerEvent: {}
+[1.726730] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.726999] (rviz_visual_tools) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.796122] (rviz_visual_tools) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.796347] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.804181] (-) TimerEvent: {}
+[1.853109] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.853373] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.904319] (-) TimerEvent: {}
+[1.930907] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.932332] (rviz_visual_tools) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.004461] (-) TimerEvent: {}
+[2.095447] (rviz_visual_tools) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[2.104570] (-) TimerEvent: {}
+[2.160134] (rviz_visual_tools) StdoutLine: {'line': b'-- Found rviz_ogre_vendor: 8.2.6 (/opt/ros/foxy/share/rviz_ogre_vendor/cmake)\n'}
+[2.160770] (rviz_visual_tools) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[2.164195] (rviz_visual_tools) StdoutLine: {'line': b'-- Found OGRE\n'}
+[2.164293] (rviz_visual_tools) StdoutLine: {'line': b'--   static     : OFF\n'}
+[2.164353] (rviz_visual_tools) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[2.164410] (rviz_visual_tools) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[2.164468] (rviz_visual_tools) StdoutLine: {'line': b'--   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[2.164542] (rviz_visual_tools) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[2.164639] (rviz_visual_tools) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib\n'}
+[2.164697] (rviz_visual_tools) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[2.164787] (rviz_visual_tools) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[2.164840] (rviz_visual_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[2.164893] (rviz_visual_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[2.165062] (rviz_visual_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[2.165159] (rviz_visual_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[2.185925] (rviz_visual_tools) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[2.190936] (rviz_visual_tools) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[2.204683] (-) TimerEvent: {}
+[2.276316] (rviz_visual_tools) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[2.276940] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[2.304834] (-) TimerEvent: {}
+[2.351300] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[2.351574] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[2.404923] (-) TimerEvent: {}
+[2.414513] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[2.414783] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for connect\n'}
+[2.479479] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[2.479764] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for remove\n'}
+[2.505049] (-) TimerEvent: {}
+[2.543738] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[2.544018] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[2.605183] (-) TimerEvent: {}
+[2.609575] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[2.609819] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[2.687225] (rviz_visual_tools) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[2.690951] (rviz_visual_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[2.691099] (rviz_visual_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[2.705364] (-) TimerEvent: {}
+[2.719437] (rviz_visual_tools) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[2.805500] (-) TimerEvent: {}
+[2.875051] (rviz_visual_tools) StdoutLine: {'line': b'-- Found shape_msgs: 2.0.5 (/opt/ros/foxy/share/shape_msgs/cmake)\n'}
+[2.905608] (-) TimerEvent: {}
+[2.936424] (rviz_visual_tools) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[3.005746] (-) TimerEvent: {}
+[3.007180] (rviz_visual_tools) StdoutLine: {'line': b'-- Found trajectory_msgs: 2.0.5 (/opt/ros/foxy/share/trajectory_msgs/cmake)\n'}
+[3.079390] (rviz_visual_tools) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[3.081130] (rviz_visual_tools) StdoutLine: {'line': b'-- Found eigen_stl_containers: 1.0.0 (/opt/ros/foxy/share/eigen_stl_containers/cmake)\n'}
+[3.085541] (rviz_visual_tools) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[3.088662] (rviz_visual_tools) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[3.093494] (rviz_visual_tools) StdoutLine: {'line': b'-- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[3.103785] (rviz_visual_tools) StdoutLine: {'line': b'-- Found tf2_eigen: 0.13.13 (/opt/ros/foxy/share/tf2_eigen/cmake)\n'}
+[3.105851] (-) TimerEvent: {}
+[3.206091] (-) TimerEvent: {}
+[3.306362] (-) TimerEvent: {}
+[3.399241] (rviz_visual_tools) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[3.406466] (-) TimerEvent: {}
+[3.431861] (rviz_visual_tools) StdoutLine: {'line': b'-- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)\n'}
+[3.454906] (rviz_visual_tools) StdoutLine: {'line': b'-- Found interactive_markers: 2.1.3 (/opt/ros/foxy/share/interactive_markers/cmake)\n'}
+[3.476849] (rviz_visual_tools) StdoutLine: {'line': b'-- Found rviz_common: 8.2.6 (/opt/ros/foxy/share/rviz_common/cmake)\n'}
+[3.506583] (-) TimerEvent: {}
+[3.589094] (rviz_visual_tools) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[3.606696] (-) TimerEvent: {}
+[3.666626] (rviz_visual_tools) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[3.672578] (rviz_visual_tools) StdoutLine: {'line': b'-- Found rviz_default_plugins: 8.2.6 (/opt/ros/foxy/share/rviz_default_plugins/cmake)\n'}
+[3.706810] (-) TimerEvent: {}
+[3.807065] (-) TimerEvent: {}
+[3.907335] (-) TimerEvent: {}
+[4.007601] (-) TimerEvent: {}
+[4.070474] (rviz_visual_tools) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)\n'}
+[4.074939] (rviz_visual_tools) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[4.078139] (rviz_visual_tools) StdoutLine: {'line': b'-- Check if compiler accepts -pthread\n'}
+[4.107736] (-) TimerEvent: {}
+[4.146243] (rviz_visual_tools) StdoutLine: {'line': b'-- Check if compiler accepts -pthread - yes\n'}
+[4.207866] (-) TimerEvent: {}
+[4.208929] (rviz_visual_tools) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.308499] (-) TimerEvent: {}
+[4.409188] (-) TimerEvent: {}
+[4.509613] (-) TimerEvent: {}
+[4.561117] (rviz_visual_tools) StdoutLine: {'line': b'-- Generating done\n'}
+[4.564186] (rviz_visual_tools) StdoutLine: {'line': b'-- Build files have been written to: /home/bettanin/ws_moveit2/build/rviz_visual_tools\n'}
+[4.575760] (rviz_visual_tools) CommandEnded: {'returncode': 0}
+[4.576672] (rviz_visual_tools) JobProgress: {'identifier': 'rviz_visual_tools', 'progress': 'build'}
+[4.578980] (rviz_visual_tools) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bettanin/ws_moveit2/build/rviz_visual_tools', '--', '-j8', '-l8'], 'cwd': '/home/bettanin/ws_moveit2/build/rviz_visual_tools', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bettanin'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1760'), ('XDG_SESSION_TYPE', 'x11'), ('KIGITHUB', 'https://github.com/KiCad'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bettanin'), ('OLDPWD', '/home/bettanin/ws_moveit2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1467'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bettanin'), ('JOURNAL_STREAM', '8:54361'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'bettanin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1809,unix/ubuntu:/tmp/.ICE-unix/1809'), ('INVOCATION_ID', '4a2b9615da8043bd945bae0d5ea9b828'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/14bc55e0_d3aa_4d97_ad83_3439e1b14a34'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bettanin/ws_moveit2/build/rviz_visual_tools'), ('KICAD_PATH', '/usr/share/kicad'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[4.609733] (-) TimerEvent: {}
+[4.621783] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rviz_visual_tools_gui_autogen\x1b[0m\n'}
+[4.622057] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest_main_autogen\x1b[0m\n'}
+[4.622208] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rviz_visual_tools_remote_control_autogen\x1b[0m\n'}
+[4.622340] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest_autogen\x1b[0m\n'}
+[4.631397] (rviz_visual_tools) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mAutomatic MOC for target rviz_visual_tools_gui\x1b[0m\n'}
+[4.631672] (rviz_visual_tools) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mAutomatic MOC for target gtest\x1b[0m\n'}
+[4.631820] (rviz_visual_tools) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mAutomatic MOC for target gtest_main\x1b[0m\n'}
+[4.631956] (rviz_visual_tools) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mAutomatic MOC for target rviz_visual_tools_remote_control\x1b[0m\n'}
+[4.648906] (rviz_visual_tools) StdoutLine: {'line': b'[ 10%] Built target rviz_visual_tools_remote_control_autogen\n'}
+[4.658828] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rviz_visual_tools_remote_control\x1b[0m\n'}
+[4.688319] (rviz_visual_tools) StdoutLine: {'line': b'[ 10%] Built target gtest_autogen\n'}
+[4.688750] (rviz_visual_tools) StdoutLine: {'line': b'[ 10%] Built target gtest_main_autogen\n'}
+[4.703207] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest_main\x1b[0m\n'}
+[4.709838] (-) TimerEvent: {}
+[4.728469] (rviz_visual_tools) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[4.728724] (rviz_visual_tools) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/gtest_main_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[4.800673] (rviz_visual_tools) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_remote_control.dir/rviz_visual_tools_remote_control_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[4.809433] (rviz_visual_tools) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_remote_control.dir/src/remote_control.cpp.o\x1b[0m\n'}
+[4.809910] (-) TimerEvent: {}
+[4.910160] (-) TimerEvent: {}
+[4.915379] (rviz_visual_tools) StdoutLine: {'line': b'[ 20%] Built target rviz_visual_tools_gui_autogen\n'}
+[4.925529] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest\x1b[0m\n'}
+[4.926070] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rviz_visual_tools_gui\x1b[0m\n'}
+[4.947371] (rviz_visual_tools) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[4.951055] (rviz_visual_tools) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[5.010270] (-) TimerEvent: {}
+[5.053585] (rviz_visual_tools) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/rviz_visual_tools_gui_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[5.053882] (rviz_visual_tools) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/rviz_visual_tools_gui.cpp.o\x1b[0m\n'}
+[5.057669] (rviz_visual_tools) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/key_tool.cpp.o\x1b[0m\n'}
+[5.058720] (rviz_visual_tools) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/remote_control.cpp.o\x1b[0m\n'}
+[5.110385] (-) TimerEvent: {}
+[5.210821] (-) TimerEvent: {}
+[5.311254] (-) TimerEvent: {}
+[5.411682] (-) TimerEvent: {}
+[5.512125] (-) TimerEvent: {}
+[5.612602] (-) TimerEvent: {}
+[5.662790] (rviz_visual_tools) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[5.712740] (-) TimerEvent: {}
+[5.735550] (rviz_visual_tools) StdoutLine: {'line': b'[ 38%] Built target gtest_main\n'}
+[5.812842] (-) TimerEvent: {}
+[5.913163] (-) TimerEvent: {}
+[6.013503] (-) TimerEvent: {}
+[6.113857] (-) TimerEvent: {}
+[6.214272] (-) TimerEvent: {}
+[6.314673] (-) TimerEvent: {}
+[6.415035] (-) TimerEvent: {}
+[6.515409] (-) TimerEvent: {}
+[6.615752] (-) TimerEvent: {}
+[6.716127] (-) TimerEvent: {}
+[6.816502] (-) TimerEvent: {}
+[6.916854] (-) TimerEvent: {}
+[7.017208] (-) TimerEvent: {}
+[7.117575] (-) TimerEvent: {}
+[7.217915] (-) TimerEvent: {}
+[7.318285] (-) TimerEvent: {}
+[7.418650] (-) TimerEvent: {}
+[7.519017] (-) TimerEvent: {}
+[7.619386] (-) TimerEvent: {}
+[7.719748] (-) TimerEvent: {}
+[7.820101] (-) TimerEvent: {}
+[7.920479] (-) TimerEvent: {}
+[8.020870] (-) TimerEvent: {}
+[8.121269] (-) TimerEvent: {}
+[8.221727] (-) TimerEvent: {}
+[8.322134] (-) TimerEvent: {}
+[8.422525] (-) TimerEvent: {}
+[8.522925] (-) TimerEvent: {}
+[8.623385] (-) TimerEvent: {}
+[8.723784] (-) TimerEvent: {}
+[8.824166] (-) TimerEvent: {}
+[8.924539] (-) TimerEvent: {}
+[9.024908] (-) TimerEvent: {}
+[9.125271] (-) TimerEvent: {}
+[9.225646] (-) TimerEvent: {}
+[9.325992] (-) TimerEvent: {}
+[9.426341] (-) TimerEvent: {}
+[9.526694] (-) TimerEvent: {}
+[9.627091] (-) TimerEvent: {}
+[9.727476] (-) TimerEvent: {}
+[9.827844] (-) TimerEvent: {}
+[9.928207] (-) TimerEvent: {}
+[10.028616] (-) TimerEvent: {}
+[10.128995] (-) TimerEvent: {}
+[10.229338] (-) TimerEvent: {}
+[10.329650] (-) TimerEvent: {}
+[10.429997] (-) TimerEvent: {}
+[10.530337] (-) TimerEvent: {}
+[10.630644] (-) TimerEvent: {}
+[10.730951] (-) TimerEvent: {}
+[10.831272] (-) TimerEvent: {}
+[10.931669] (-) TimerEvent: {}
+[11.031993] (-) TimerEvent: {}
+[11.132306] (-) TimerEvent: {}
+[11.232617] (-) TimerEvent: {}
+[11.332950] (-) TimerEvent: {}
+[11.433264] (-) TimerEvent: {}
+[11.531438] (rviz_visual_tools) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library librviz_visual_tools_remote_control.so\x1b[0m\n'}
+[11.533352] (-) TimerEvent: {}
+[11.633647] (-) TimerEvent: {}
+[11.734050] (-) TimerEvent: {}
+[11.823942] (rviz_visual_tools) StdoutLine: {'line': b'[ 41%] Built target rviz_visual_tools_remote_control\n'}
+[11.834156] (-) TimerEvent: {}
+[11.839028] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rviz_visual_tools_autogen\x1b[0m\n'}
+[11.854132] (rviz_visual_tools) StdoutLine: {'line': b'[ 43%] \x1b[34m\x1b[1mAutomatic MOC for target rviz_visual_tools\x1b[0m\n'}
+[11.880913] (rviz_visual_tools) StdoutLine: {'line': b'[ 43%] Built target rviz_visual_tools_autogen\n'}
+[11.896556] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rviz_visual_tools\x1b[0m\n'}
+[11.934271] (-) TimerEvent: {}
+[12.034592] (-) TimerEvent: {}
+[12.105372] (rviz_visual_tools) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/rviz_visual_tools_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[12.114631] (rviz_visual_tools) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/src/rviz_visual_tools.cpp.o\x1b[0m\n'}
+[12.114947] (rviz_visual_tools) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/src/tf_visual_tools.cpp.o\x1b[0m\n'}
+[12.134698] (-) TimerEvent: {}
+[12.235010] (-) TimerEvent: {}
+[12.335327] (-) TimerEvent: {}
+[12.435642] (-) TimerEvent: {}
+[12.535956] (-) TimerEvent: {}
+[12.636280] (-) TimerEvent: {}
+[12.736613] (-) TimerEvent: {}
+[12.836943] (-) TimerEvent: {}
+[12.937263] (-) TimerEvent: {}
+[13.026378] (rviz_visual_tools) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[13.037384] (-) TimerEvent: {}
+[13.067688] (rviz_visual_tools) StdoutLine: {'line': b'[ 53%] Built target gtest\n'}
+[13.137491] (-) TimerEvent: {}
+[13.237798] (-) TimerEvent: {}
+[13.338110] (-) TimerEvent: {}
+[13.438429] (-) TimerEvent: {}
+[13.538745] (-) TimerEvent: {}
+[13.639053] (-) TimerEvent: {}
+[13.650873] (rviz_visual_tools) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library librviz_visual_tools_gui.so\x1b[0m\n'}
+[13.739162] (-) TimerEvent: {}
+[13.839542] (-) TimerEvent: {}
+[13.940004] (-) TimerEvent: {}
+[14.040505] (-) TimerEvent: {}
+[14.141012] (-) TimerEvent: {}
+[14.241521] (-) TimerEvent: {}
+[14.342010] (-) TimerEvent: {}
+[14.442470] (-) TimerEvent: {}
+[14.542903] (-) TimerEvent: {}
+[14.643279] (-) TimerEvent: {}
+[14.743649] (-) TimerEvent: {}
+[14.844087] (-) TimerEvent: {}
+[14.944558] (-) TimerEvent: {}
+[15.045053] (-) TimerEvent: {}
+[15.145587] (-) TimerEvent: {}
+[15.245990] (-) TimerEvent: {}
+[15.346419] (-) TimerEvent: {}
+[15.446895] (-) TimerEvent: {}
+[15.547328] (-) TimerEvent: {}
+[15.647725] (-) TimerEvent: {}
+[15.748099] (-) TimerEvent: {}
+[15.768517] (rviz_visual_tools) StdoutLine: {'line': b'[ 56%] Built target rviz_visual_tools_gui\n'}
+[15.848243] (-) TimerEvent: {}
+[15.948545] (-) TimerEvent: {}
+[16.048841] (-) TimerEvent: {}
+[16.149144] (-) TimerEvent: {}
+[16.249432] (-) TimerEvent: {}
+[16.349729] (-) TimerEvent: {}
+[16.450024] (-) TimerEvent: {}
+[16.550323] (-) TimerEvent: {}
+[16.650632] (-) TimerEvent: {}
+[16.750947] (-) TimerEvent: {}
+[16.851281] (-) TimerEvent: {}
+[16.951618] (-) TimerEvent: {}
+[17.051957] (-) TimerEvent: {}
+[17.152296] (-) TimerEvent: {}
+[17.252622] (-) TimerEvent: {}
+[17.352890] (-) TimerEvent: {}
+[17.453184] (-) TimerEvent: {}
+[17.553485] (-) TimerEvent: {}
+[17.653751] (-) TimerEvent: {}
+[17.754070] (-) TimerEvent: {}
+[17.854388] (-) TimerEvent: {}
+[17.954693] (-) TimerEvent: {}
+[18.054990] (-) TimerEvent: {}
+[18.155270] (-) TimerEvent: {}
+[18.255562] (-) TimerEvent: {}
+[18.355848] (-) TimerEvent: {}
+[18.456145] (-) TimerEvent: {}
+[18.556437] (-) TimerEvent: {}
+[18.656728] (-) TimerEvent: {}
+[18.757007] (-) TimerEvent: {}
+[18.857297] (-) TimerEvent: {}
+[18.957593] (-) TimerEvent: {}
+[19.057891] (-) TimerEvent: {}
+[19.158192] (-) TimerEvent: {}
+[19.258484] (-) TimerEvent: {}
+[19.358778] (-) TimerEvent: {}
+[19.459083] (-) TimerEvent: {}
+[19.559375] (-) TimerEvent: {}
+[19.659663] (-) TimerEvent: {}
+[19.759949] (-) TimerEvent: {}
+[19.860254] (-) TimerEvent: {}
+[19.960548] (-) TimerEvent: {}
+[20.060851] (-) TimerEvent: {}
+[20.161112] (-) TimerEvent: {}
+[20.261402] (-) TimerEvent: {}
+[20.361706] (-) TimerEvent: {}
+[20.462035] (-) TimerEvent: {}
+[20.562358] (-) TimerEvent: {}
+[20.662675] (-) TimerEvent: {}
+[20.762983] (-) TimerEvent: {}
+[20.863321] (-) TimerEvent: {}
+[20.963681] (-) TimerEvent: {}
+[21.064044] (-) TimerEvent: {}
+[21.164370] (-) TimerEvent: {}
+[21.264673] (-) TimerEvent: {}
+[21.364982] (-) TimerEvent: {}
+[21.465289] (-) TimerEvent: {}
+[21.565581] (-) TimerEvent: {}
+[21.665884] (-) TimerEvent: {}
+[21.766177] (-) TimerEvent: {}
+[21.866475] (-) TimerEvent: {}
+[21.966765] (-) TimerEvent: {}
+[22.067076] (-) TimerEvent: {}
+[22.167414] (-) TimerEvent: {}
+[22.267716] (-) TimerEvent: {}
+[22.368022] (-) TimerEvent: {}
+[22.468302] (-) TimerEvent: {}
+[22.568599] (-) TimerEvent: {}
+[22.668900] (-) TimerEvent: {}
+[22.769195] (-) TimerEvent: {}
+[22.869490] (-) TimerEvent: {}
+[22.969792] (-) TimerEvent: {}
+[23.070093] (-) TimerEvent: {}
+[23.170390] (-) TimerEvent: {}
+[23.270689] (-) TimerEvent: {}
+[23.370998] (-) TimerEvent: {}
+[23.471296] (-) TimerEvent: {}
+[23.571598] (-) TimerEvent: {}
+[23.671903] (-) TimerEvent: {}
+[23.772181] (-) TimerEvent: {}
+[23.872512] (-) TimerEvent: {}
+[23.972790] (-) TimerEvent: {}
+[24.073093] (-) TimerEvent: {}
+[24.173396] (-) TimerEvent: {}
+[24.273700] (-) TimerEvent: {}
+[24.374013] (-) TimerEvent: {}
+[24.474306] (-) TimerEvent: {}
+[24.574582] (-) TimerEvent: {}
+[24.674869] (-) TimerEvent: {}
+[24.775173] (-) TimerEvent: {}
+[24.875449] (-) TimerEvent: {}
+[24.975748] (-) TimerEvent: {}
+[25.076037] (-) TimerEvent: {}
+[25.176323] (-) TimerEvent: {}
+[25.276612] (-) TimerEvent: {}
+[25.376905] (-) TimerEvent: {}
+[25.477192] (-) TimerEvent: {}
+[25.577478] (-) TimerEvent: {}
+[25.677767] (-) TimerEvent: {}
+[25.778057] (-) TimerEvent: {}
+[25.878330] (-) TimerEvent: {}
+[25.978608] (-) TimerEvent: {}
+[26.078897] (-) TimerEvent: {}
+[26.179186] (-) TimerEvent: {}
+[26.279478] (-) TimerEvent: {}
+[26.379764] (-) TimerEvent: {}
+[26.480055] (-) TimerEvent: {}
+[26.580346] (-) TimerEvent: {}
+[26.680635] (-) TimerEvent: {}
+[26.780960] (-) TimerEvent: {}
+[26.881248] (-) TimerEvent: {}
+[26.981535] (-) TimerEvent: {}
+[27.081825] (-) TimerEvent: {}
+[27.182114] (-) TimerEvent: {}
+[27.282403] (-) TimerEvent: {}
+[27.382686] (-) TimerEvent: {}
+[27.418240] (rviz_visual_tools) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library librviz_visual_tools.so\x1b[0m\n'}
+[27.482826] (-) TimerEvent: {}
+[27.577903] (rviz_visual_tools) StdoutLine: {'line': b'[ 58%] Built target rviz_visual_tools\n'}
+[27.582952] (-) TimerEvent: {}
+[27.589005] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rviz_visual_tools_imarker_simple_autogen\x1b[0m\n'}
+[27.589264] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rviz_visual_tools_demo_autogen\x1b[0m\n'}
+[27.589422] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rviz_visual_tools_rvt_test_autogen\x1b[0m\n'}
+[27.599771] (rviz_visual_tools) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mAutomatic MOC for target rviz_visual_tools_demo\x1b[0m\n'}
+[27.600036] (rviz_visual_tools) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mAutomatic MOC for target rviz_visual_tools_imarker_simple\x1b[0m\n'}
+[27.600191] (rviz_visual_tools) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mAutomatic MOC for target rviz_visual_tools_rvt_test\x1b[0m\n'}
+[27.617783] (rviz_visual_tools) StdoutLine: {'line': b'[ 66%] Built target rviz_visual_tools_rvt_test_autogen\n'}
+[27.618021] (rviz_visual_tools) StdoutLine: {'line': b'[ 66%] Built target rviz_visual_tools_demo_autogen\n'}
+[27.618165] (rviz_visual_tools) StdoutLine: {'line': b'[ 66%] Built target rviz_visual_tools_imarker_simple_autogen\n'}
+[27.627969] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rviz_visual_tools_imarker_simple\x1b[0m\n'}
+[27.628140] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rviz_visual_tools_rvt_test\x1b[0m\n'}
+[27.683082] (-) TimerEvent: {}
+[27.686022] (rviz_visual_tools) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_rvt_test.dir/rviz_visual_tools_rvt_test_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[27.691479] (rviz_visual_tools) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple.dir/rviz_visual_tools_imarker_simple_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[27.693914] (rviz_visual_tools) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_rvt_test.dir/tests/rvt_test.cpp.o\x1b[0m\n'}
+[27.699688] (rviz_visual_tools) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple.dir/src/imarker_simple.cpp.o\x1b[0m\n'}
+[27.783209] (-) TimerEvent: {}
+[27.883478] (-) TimerEvent: {}
+[27.983746] (-) TimerEvent: {}
+[28.084017] (-) TimerEvent: {}
+[28.184298] (-) TimerEvent: {}
+[28.284590] (-) TimerEvent: {}
+[28.384890] (-) TimerEvent: {}
+[28.485136] (-) TimerEvent: {}
+[28.585419] (-) TimerEvent: {}
+[28.685699] (-) TimerEvent: {}
+[28.785994] (-) TimerEvent: {}
+[28.886311] (-) TimerEvent: {}
+[28.986620] (-) TimerEvent: {}
+[29.086889] (-) TimerEvent: {}
+[29.187158] (-) TimerEvent: {}
+[29.287445] (-) TimerEvent: {}
+[29.387749] (-) TimerEvent: {}
+[29.488071] (-) TimerEvent: {}
+[29.588377] (-) TimerEvent: {}
+[29.688686] (-) TimerEvent: {}
+[29.788974] (-) TimerEvent: {}
+[29.889266] (-) TimerEvent: {}
+[29.989562] (-) TimerEvent: {}
+[30.089860] (-) TimerEvent: {}
+[30.190168] (-) TimerEvent: {}
+[30.290462] (-) TimerEvent: {}
+[30.390751] (-) TimerEvent: {}
+[30.491027] (-) TimerEvent: {}
+[30.580744] (rviz_visual_tools) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library librviz_visual_tools_imarker_simple.so\x1b[0m\n'}
+[30.591158] (-) TimerEvent: {}
+[30.691450] (-) TimerEvent: {}
+[30.731116] (rviz_visual_tools) StdoutLine: {'line': b'[ 79%] Built target rviz_visual_tools_imarker_simple\n'}
+[30.743044] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rviz_visual_tools_imarker_simple_demo_autogen\x1b[0m\n'}
+[30.743221] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rviz_visual_tools_demo\x1b[0m\n'}
+[30.754715] (rviz_visual_tools) StdoutLine: {'line': b'[ 82%] \x1b[34m\x1b[1mAutomatic MOC for target rviz_visual_tools_imarker_simple_demo\x1b[0m\n'}
+[30.775229] (rviz_visual_tools) StdoutLine: {'line': b'[ 82%] Built target rviz_visual_tools_imarker_simple_demo_autogen\n'}
+[30.786801] (rviz_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rviz_visual_tools_imarker_simple_demo\x1b[0m\n'}
+[30.791534] (-) TimerEvent: {}
+[30.808760] (rviz_visual_tools) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_demo.dir/rviz_visual_tools_demo_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[30.819925] (rviz_visual_tools) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_demo.dir/src/rviz_visual_tools_demo.cpp.o\x1b[0m\n'}
+[30.858866] (rviz_visual_tools) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple_demo.dir/rviz_visual_tools_imarker_simple_demo_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[30.869369] (rviz_visual_tools) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple_demo.dir/src/imarker_simple_demo.cpp.o\x1b[0m\n'}
+[30.891667] (-) TimerEvent: {}
+[30.991984] (-) TimerEvent: {}
+[31.092309] (-) TimerEvent: {}
+[31.192605] (-) TimerEvent: {}
+[31.292883] (-) TimerEvent: {}
+[31.393191] (-) TimerEvent: {}
+[31.493519] (-) TimerEvent: {}
+[31.593855] (-) TimerEvent: {}
+[31.694175] (-) TimerEvent: {}
+[31.794485] (-) TimerEvent: {}
+[31.894800] (-) TimerEvent: {}
+[31.995134] (-) TimerEvent: {}
+[32.095440] (-) TimerEvent: {}
+[32.195735] (-) TimerEvent: {}
+[32.296039] (-) TimerEvent: {}
+[32.396339] (-) TimerEvent: {}
+[32.496634] (-) TimerEvent: {}
+[32.596956] (-) TimerEvent: {}
+[32.697270] (-) TimerEvent: {}
+[32.797587] (-) TimerEvent: {}
+[32.807114] (rviz_visual_tools) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable rviz_visual_tools_rvt_test\x1b[0m\n'}
+[32.897708] (-) TimerEvent: {}
+[32.998056] (-) TimerEvent: {}
+[33.026899] (rviz_visual_tools) StdoutLine: {'line': b'[ 94%] Built target rviz_visual_tools_rvt_test\n'}
+[33.098159] (-) TimerEvent: {}
+[33.198468] (-) TimerEvent: {}
+[33.298785] (-) TimerEvent: {}
+[33.399089] (-) TimerEvent: {}
+[33.499413] (-) TimerEvent: {}
+[33.599743] (-) TimerEvent: {}
+[33.700069] (-) TimerEvent: {}
+[33.800356] (-) TimerEvent: {}
+[33.908479] (-) TimerEvent: {}
+[34.008782] (-) TimerEvent: {}
+[34.043221] (rviz_visual_tools) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable rviz_visual_tools_imarker_simple_demo\x1b[0m\n'}
+[34.108900] (-) TimerEvent: {}
+[34.196389] (rviz_visual_tools) StdoutLine: {'line': b'[ 97%] Built target rviz_visual_tools_imarker_simple_demo\n'}
+[34.208989] (-) TimerEvent: {}
+[34.309298] (-) TimerEvent: {}
+[34.409594] (-) TimerEvent: {}
+[34.509892] (-) TimerEvent: {}
+[34.610200] (-) TimerEvent: {}
+[34.710517] (-) TimerEvent: {}
+[34.717354] (rviz_visual_tools) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rviz_visual_tools_demo\x1b[0m\n'}
+[34.810693] (-) TimerEvent: {}
+[34.871357] (rviz_visual_tools) StdoutLine: {'line': b'[100%] Built target rviz_visual_tools_demo\n'}
+[34.884831] (rviz_visual_tools) CommandEnded: {'returncode': 0}
+[34.910862] (-) TimerEvent: {}
+[34.950837] (rviz_visual_tools) JobProgress: {'identifier': 'rviz_visual_tools', 'progress': 'install'}
+[34.961415] (rviz_visual_tools) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bettanin/ws_moveit2/build/rviz_visual_tools'], 'cwd': '/home/bettanin/ws_moveit2/build/rviz_visual_tools', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bettanin'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1760'), ('XDG_SESSION_TYPE', 'x11'), ('KIGITHUB', 'https://github.com/KiCad'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bettanin'), ('OLDPWD', '/home/bettanin/ws_moveit2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1467'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bettanin'), ('JOURNAL_STREAM', '8:54361'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'bettanin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1809,unix/ubuntu:/tmp/.ICE-unix/1809'), ('INVOCATION_ID', '4a2b9615da8043bd945bae0d5ea9b828'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/14bc55e0_d3aa_4d97_ad83_3439e1b14a34'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bettanin/ws_moveit2/build/rviz_visual_tools'), ('KICAD_PATH', '/usr/share/kicad'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[34.969490] (rviz_visual_tools) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[34.969776] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/plugin_description.xml\n'}
+[34.969950] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/lib/librviz_visual_tools.so\n'}
+[34.970809] (rviz_visual_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib/librviz_visual_tools.so" to ""\n'}
+[34.970989] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/lib/librviz_visual_tools_remote_control.so\n'}
+[34.971714] (rviz_visual_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib/librviz_visual_tools_remote_control.so" to ""\n'}
+[34.971885] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/lib/librviz_visual_tools_gui.so\n'}
+[34.972830] (rviz_visual_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib/librviz_visual_tools_gui.so" to ""\n'}
+[34.972990] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/lib/librviz_visual_tools_imarker_simple.so\n'}
+[34.973459] (rviz_visual_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib/librviz_visual_tools_imarker_simple.so" to ""\n'}
+[34.973667] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_demo\n'}
+[34.974103] (rviz_visual_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_demo" to ""\n'}
+[34.974272] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_imarker_simple_demo\n'}
+[34.974688] (rviz_visual_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_imarker_simple_demo" to ""\n'}
+[34.974785] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/include\n'}
+[34.974949] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/include/rviz_visual_tools\n'}
+[34.975037] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp\n'}
+[34.975111] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools_gui.hpp\n'}
+[34.975200] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/include/rviz_visual_tools/imarker_simple.hpp\n'}
+[34.975283] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/include/rviz_visual_tools/remote_control.hpp\n'}
+[34.975354] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/include/rviz_visual_tools/tf_visual_tools.hpp\n'}
+[34.975420] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/include/rviz_visual_tools/remote_reciever.hpp\n'}
+[34.975477] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/include/rviz_visual_tools/key_tool.hpp\n'}
+[34.975555] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/launch\n'}
+[34.975633] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo_combined.launch.py\n'}
+[34.975725] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/launch/rvt_test.launch\n'}
+[34.975880] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo_rviz.launch.py\n'}
+[34.975980] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo.rviz\n'}
+[34.976171] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/environment/library_path.sh\n'}
+[34.976307] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/environment/library_path.dsv\n'}
+[34.976512] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/share/ament_index/resource_index/package_run_dependencies/rviz_visual_tools\n'}
+[34.976676] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/share/ament_index/resource_index/parent_prefix_path/rviz_visual_tools\n'}
+[34.976905] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/environment/ament_prefix_path.sh\n'}
+[34.977041] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/environment/ament_prefix_path.dsv\n'}
+[34.977176] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/environment/path.sh\n'}
+[34.977300] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/environment/path.dsv\n'}
+[34.977394] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.bash\n'}
+[34.977578] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.sh\n'}
+[34.977732] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.zsh\n'}
+[34.977843] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.dsv\n'}
+[34.977993] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/package.dsv\n'}
+[34.978183] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/share/ament_index/resource_index/packages/rviz_visual_tools\n'}
+[34.978385] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_visual_tools\n'}
+[34.978572] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[34.978730] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[34.978888] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[34.979052] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig.cmake\n'}
+[34.979156] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig-version.cmake\n'}
+[34.979306] (rviz_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/package.xml\n'}
+[34.981841] (rviz_visual_tools) CommandEnded: {'returncode': 0}
+[35.010997] (-) TimerEvent: {}
+[35.090536] (rviz_visual_tools) JobEnded: {'identifier': 'rviz_visual_tools', 'rc': 0}
+[35.094841] (moveit_visual_tools) JobStarted: {'identifier': 'moveit_visual_tools'}
+[35.104903] (moveit_visual_tools) JobProgress: {'identifier': 'moveit_visual_tools', 'progress': 'cmake'}
+[35.106948] (moveit_visual_tools) Command: {'cmd': ['/usr/bin/cmake', '/home/bettanin/ws_moveit2/src/moveit_visual_tools', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_INSTALL_PREFIX=/home/bettanin/ws_moveit2/install/moveit_visual_tools'], 'cwd': '/home/bettanin/ws_moveit2/build/moveit_visual_tools', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bettanin'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1760'), ('XDG_SESSION_TYPE', 'x11'), ('KIGITHUB', 'https://github.com/KiCad'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bettanin'), ('OLDPWD', '/home/bettanin/ws_moveit2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1467'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bettanin'), ('JOURNAL_STREAM', '8:54361'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'bettanin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1809,unix/ubuntu:/tmp/.ICE-unix/1809'), ('INVOCATION_ID', '4a2b9615da8043bd945bae0d5ea9b828'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/14bc55e0_d3aa_4d97_ad83_3439e1b14a34'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bettanin/ws_moveit2/build/moveit_visual_tools'), ('KICAD_PATH', '/usr/share/kicad'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy')]), 'shell': False}
+[35.111058] (-) TimerEvent: {}
+[35.180745] (moveit_visual_tools) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[35.211196] (-) TimerEvent: {}
+[35.237267] (moveit_visual_tools) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[35.241184] (moveit_visual_tools) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[35.304277] (moveit_visual_tools) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[35.305057] (moveit_visual_tools) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[35.311304] (-) TimerEvent: {}
+[35.372604] (moveit_visual_tools) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[35.386511] (moveit_visual_tools) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[35.386949] (moveit_visual_tools) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[35.389816] (moveit_visual_tools) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[35.411444] (-) TimerEvent: {}
+[35.467754] (moveit_visual_tools) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[35.468840] (moveit_visual_tools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[35.511577] (-) TimerEvent: {}
+[35.544590] (moveit_visual_tools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[35.556314] (moveit_visual_tools) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[35.556886] (moveit_visual_tools) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[35.558985] (moveit_visual_tools) StdoutLine: {'line': b'-- Found moveit_common: 2.2.3 (/opt/ros/foxy/share/moveit_common/cmake)\n'}
+[35.561105] (moveit_visual_tools) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[35.584839] (moveit_visual_tools) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[35.585063] (moveit_visual_tools) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[35.611698] (-) TimerEvent: {}
+[35.711964] (-) TimerEvent: {}
+[35.812238] (-) TimerEvent: {}
+[35.826256] (moveit_visual_tools) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system \n'}
+[35.832335] (moveit_visual_tools) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[35.862148] (moveit_visual_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[35.868476] (moveit_visual_tools) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[35.912371] (-) TimerEvent: {}
+[35.941677] (moveit_visual_tools) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[35.969599] (moveit_visual_tools) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[36.012499] (-) TimerEvent: {}
+[36.040478] (moveit_visual_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[36.112632] (-) TimerEvent: {}
+[36.118853] (moveit_visual_tools) StdoutLine: {'line': b'-- Found graph_msgs: 0.2.0 (/opt/ros/foxy/share/graph_msgs/cmake)\n'}
+[36.184280] (moveit_visual_tools) StdoutLine: {'line': b'-- Found moveit_core: 2.2.3 (/opt/ros/foxy/share/moveit_core/cmake)\n'}
+[36.212773] (-) TimerEvent: {}
+[36.313044] (-) TimerEvent: {}
+[36.413320] (-) TimerEvent: {}
+[36.478033] (moveit_visual_tools) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[36.497534] (moveit_visual_tools) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem \n'}
+[36.513422] (-) TimerEvent: {}
+[36.562990] (moveit_visual_tools) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[36.564279] (moveit_visual_tools) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[36.565744] (moveit_visual_tools) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[36.613539] (-) TimerEvent: {}
+[36.713791] (-) TimerEvent: {}
+[36.764972] (moveit_visual_tools) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[36.813901] (-) TimerEvent: {}
+[36.914157] (-) TimerEvent: {}
+[36.930814] (moveit_visual_tools) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[37.014286] (-) TimerEvent: {}
+[37.114571] (-) TimerEvent: {}
+[37.214836] (-) TimerEvent: {}
+[37.315111] (-) TimerEvent: {}
+[37.415400] (-) TimerEvent: {}
+[37.515676] (-) TimerEvent: {}
+[37.615946] (-) TimerEvent: {}
+[37.716209] (-) TimerEvent: {}
+[37.816475] (-) TimerEvent: {}
+[37.916777] (-) TimerEvent: {}
+[38.017052] (-) TimerEvent: {}
+[38.117322] (-) TimerEvent: {}
+[38.217594] (-) TimerEvent: {}
+[38.317864] (-) TimerEvent: {}
+[38.418147] (-) TimerEvent: {}
+[38.518425] (-) TimerEvent: {}
+[38.599528] (moveit_visual_tools) StdoutLine: {'line': b'-- Found moveit_ros_planning: 2.2.3 (/opt/ros/foxy/share/moveit_ros_planning/cmake)\n'}
+[38.604438] (moveit_visual_tools) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread chrono \n'}
+[38.618533] (-) TimerEvent: {}
+[38.718784] (-) TimerEvent: {}
+[38.819048] (-) TimerEvent: {}
+[38.856321] (moveit_visual_tools) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread \n'}
+[38.919164] (-) TimerEvent: {}
+[39.019404] (-) TimerEvent: {}
+[39.119660] (-) TimerEvent: {}
+[39.219923] (-) TimerEvent: {}
+[39.320192] (-) TimerEvent: {}
+[39.409413] (moveit_visual_tools) StdoutLine: {'line': b'-- Found rviz_visual_tools: 4.0.3 (/home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/cmake)\n'}
+[39.420302] (-) TimerEvent: {}
+[39.520551] (-) TimerEvent: {}
+[39.524367] (moveit_visual_tools) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[39.526466] (moveit_visual_tools) StdoutLine: {'line': b'-- Found OGRE\n'}
+[39.526602] (moveit_visual_tools) StdoutLine: {'line': b'--   static     : OFF\n'}
+[39.526807] (moveit_visual_tools) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[39.526877] (moveit_visual_tools) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[39.526936] (moveit_visual_tools) StdoutLine: {'line': b'--   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[39.527002] (moveit_visual_tools) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[39.527058] (moveit_visual_tools) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib\n'}
+[39.527111] (moveit_visual_tools) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[39.527300] (moveit_visual_tools) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[39.527370] (moveit_visual_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[39.527429] (moveit_visual_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[39.528065] (moveit_visual_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[39.528170] (moveit_visual_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[39.546729] (moveit_visual_tools) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[39.551624] (moveit_visual_tools) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[39.620710] (-) TimerEvent: {}
+[39.635107] (moveit_visual_tools) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[39.635434] (moveit_visual_tools) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[39.708508] (moveit_visual_tools) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[39.708687] (moveit_visual_tools) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[39.720809] (-) TimerEvent: {}
+[39.775069] (moveit_visual_tools) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[39.775355] (moveit_visual_tools) StdoutLine: {'line': b'-- Looking for connect\n'}
+[39.820899] (-) TimerEvent: {}
+[39.840278] (moveit_visual_tools) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[39.840540] (moveit_visual_tools) StdoutLine: {'line': b'-- Looking for remove\n'}
+[39.905800] (moveit_visual_tools) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[39.906085] (moveit_visual_tools) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[39.920985] (-) TimerEvent: {}
+[39.970752] (moveit_visual_tools) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[39.970993] (moveit_visual_tools) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[40.021108] (-) TimerEvent: {}
+[40.036950] (moveit_visual_tools) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[40.040018] (moveit_visual_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[40.040116] (moveit_visual_tools) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[40.096245] (moveit_visual_tools) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[40.121216] (-) TimerEvent: {}
+[40.221445] (-) TimerEvent: {}
+[40.321725] (-) TimerEvent: {}
+[40.422005] (-) TimerEvent: {}
+[40.522284] (-) TimerEvent: {}
+[40.622554] (-) TimerEvent: {}
+[40.722813] (-) TimerEvent: {}
+[40.823077] (-) TimerEvent: {}
+[40.923344] (-) TimerEvent: {}
+[41.023608] (-) TimerEvent: {}
+[41.116187] (moveit_visual_tools) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[41.123720] (-) TimerEvent: {}
+[41.134107] (moveit_visual_tools) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[41.135130] (moveit_visual_tools) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[41.136438] (moveit_visual_tools) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[41.137358] (moveit_visual_tools) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[41.138274] (moveit_visual_tools) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[41.143619] (moveit_visual_tools) StdoutLine: {'line': b'-- Configuring done\n'}
+[41.224333] (-) TimerEvent: {}
+[41.325317] (-) TimerEvent: {}
+[41.426028] (-) TimerEvent: {}
+[41.526474] (-) TimerEvent: {}
+[41.591103] (moveit_visual_tools) StdoutLine: {'line': b'-- Generating done\n'}
+[41.593323] (moveit_visual_tools) StdoutLine: {'line': b'-- Build files have been written to: /home/bettanin/ws_moveit2/build/moveit_visual_tools\n'}
+[41.604874] (moveit_visual_tools) CommandEnded: {'returncode': 0}
+[41.605712] (moveit_visual_tools) JobProgress: {'identifier': 'moveit_visual_tools', 'progress': 'build'}
+[41.607429] (moveit_visual_tools) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bettanin/ws_moveit2/build/moveit_visual_tools', '--', '-j8', '-l8'], 'cwd': '/home/bettanin/ws_moveit2/build/moveit_visual_tools', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bettanin'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1760'), ('XDG_SESSION_TYPE', 'x11'), ('KIGITHUB', 'https://github.com/KiCad'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bettanin'), ('OLDPWD', '/home/bettanin/ws_moveit2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1467'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bettanin'), ('JOURNAL_STREAM', '8:54361'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'bettanin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1809,unix/ubuntu:/tmp/.ICE-unix/1809'), ('INVOCATION_ID', '4a2b9615da8043bd945bae0d5ea9b828'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/14bc55e0_d3aa_4d97_ad83_3439e1b14a34'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bettanin/ws_moveit2/build/moveit_visual_tools'), ('KICAD_PATH', '/usr/share/kicad'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy')]), 'shell': False}
+[41.626618] (-) TimerEvent: {}
+[41.651974] (moveit_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target moveit_visual_tools\x1b[0m\n'}
+[41.726972] (-) TimerEvent: {}
+[41.827266] (-) TimerEvent: {}
+[41.883089] (moveit_visual_tools) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o\x1b[0m\n'}
+[41.883550] (moveit_visual_tools) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_robot_state.cpp.o\x1b[0m\n'}
+[41.883982] (moveit_visual_tools) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_end_effector.cpp.o\x1b[0m\n'}
+[41.927375] (-) TimerEvent: {}
+[42.027685] (-) TimerEvent: {}
+[42.128187] (-) TimerEvent: {}
+[42.228578] (-) TimerEvent: {}
+[42.329317] (-) TimerEvent: {}
+[42.429974] (-) TimerEvent: {}
+[42.530786] (-) TimerEvent: {}
+[42.631523] (-) TimerEvent: {}
+[42.732144] (-) TimerEvent: {}
+[42.832573] (-) TimerEvent: {}
+[42.933011] (-) TimerEvent: {}
+[43.033614] (-) TimerEvent: {}
+[43.133890] (-) TimerEvent: {}
+[43.234156] (-) TimerEvent: {}
+[43.334488] (-) TimerEvent: {}
+[43.434836] (-) TimerEvent: {}
+[43.535129] (-) TimerEvent: {}
+[43.635889] (-) TimerEvent: {}
+[43.736349] (-) TimerEvent: {}
+[43.837038] (-) TimerEvent: {}
+[43.937508] (-) TimerEvent: {}
+[44.038274] (-) TimerEvent: {}
+[44.139132] (-) TimerEvent: {}
+[44.239560] (-) TimerEvent: {}
+[44.340257] (-) TimerEvent: {}
+[44.440902] (-) TimerEvent: {}
+[44.541532] (-) TimerEvent: {}
+[44.642024] (-) TimerEvent: {}
+[44.742688] (-) TimerEvent: {}
+[44.843473] (-) TimerEvent: {}
+[44.944344] (-) TimerEvent: {}
+[45.045166] (-) TimerEvent: {}
+[45.145660] (-) TimerEvent: {}
+[45.245966] (-) TimerEvent: {}
+[45.346273] (-) TimerEvent: {}
+[45.446605] (-) TimerEvent: {}
+[45.546910] (-) TimerEvent: {}
+[45.647218] (-) TimerEvent: {}
+[45.747526] (-) TimerEvent: {}
+[45.847844] (-) TimerEvent: {}
+[45.948154] (-) TimerEvent: {}
+[46.048475] (-) TimerEvent: {}
+[46.148782] (-) TimerEvent: {}
+[46.249090] (-) TimerEvent: {}
+[46.349421] (-) TimerEvent: {}
+[46.449767] (-) TimerEvent: {}
+[46.550133] (-) TimerEvent: {}
+[46.650479] (-) TimerEvent: {}
+[46.750799] (-) TimerEvent: {}
+[46.851102] (-) TimerEvent: {}
+[46.951408] (-) TimerEvent: {}
+[47.051717] (-) TimerEvent: {}
+[47.152037] (-) TimerEvent: {}
+[47.252410] (-) TimerEvent: {}
+[47.352790] (-) TimerEvent: {}
+[47.453140] (-) TimerEvent: {}
+[47.553457] (-) TimerEvent: {}
+[47.653829] (-) TimerEvent: {}
+[47.754159] (-) TimerEvent: {}
+[47.854492] (-) TimerEvent: {}
+[47.954840] (-) TimerEvent: {}
+[48.055196] (-) TimerEvent: {}
+[48.155553] (-) TimerEvent: {}
+[48.255913] (-) TimerEvent: {}
+[48.356278] (-) TimerEvent: {}
+[48.456637] (-) TimerEvent: {}
+[48.556997] (-) TimerEvent: {}
+[48.657337] (-) TimerEvent: {}
+[48.757673] (-) TimerEvent: {}
+[48.858007] (-) TimerEvent: {}
+[48.958360] (-) TimerEvent: {}
+[49.058701] (-) TimerEvent: {}
+[49.159020] (-) TimerEvent: {}
+[49.259335] (-) TimerEvent: {}
+[49.359654] (-) TimerEvent: {}
+[49.459993] (-) TimerEvent: {}
+[49.560321] (-) TimerEvent: {}
+[49.660631] (-) TimerEvent: {}
+[49.760967] (-) TimerEvent: {}
+[49.861297] (-) TimerEvent: {}
+[49.961644] (-) TimerEvent: {}
+[50.062021] (-) TimerEvent: {}
+[50.162361] (-) TimerEvent: {}
+[50.262692] (-) TimerEvent: {}
+[50.363035] (-) TimerEvent: {}
+[50.463370] (-) TimerEvent: {}
+[50.563700] (-) TimerEvent: {}
+[50.664027] (-) TimerEvent: {}
+[50.764359] (-) TimerEvent: {}
+[50.864682] (-) TimerEvent: {}
+[50.965015] (-) TimerEvent: {}
+[51.065343] (-) TimerEvent: {}
+[51.165677] (-) TimerEvent: {}
+[51.266035] (-) TimerEvent: {}
+[51.366350] (-) TimerEvent: {}
+[51.466650] (-) TimerEvent: {}
+[51.566950] (-) TimerEvent: {}
+[51.667251] (-) TimerEvent: {}
+[51.767576] (-) TimerEvent: {}
+[51.867835] (-) TimerEvent: {}
+[51.968100] (-) TimerEvent: {}
+[52.068371] (-) TimerEvent: {}
+[52.168662] (-) TimerEvent: {}
+[52.268993] (-) TimerEvent: {}
+[52.369312] (-) TimerEvent: {}
+[52.469669] (-) TimerEvent: {}
+[52.570054] (-) TimerEvent: {}
+[52.670420] (-) TimerEvent: {}
+[52.770776] (-) TimerEvent: {}
+[52.871127] (-) TimerEvent: {}
+[52.971460] (-) TimerEvent: {}
+[53.071788] (-) TimerEvent: {}
+[53.172137] (-) TimerEvent: {}
+[53.272491] (-) TimerEvent: {}
+[53.372799] (-) TimerEvent: {}
+[53.473116] (-) TimerEvent: {}
+[53.573438] (-) TimerEvent: {}
+[53.673748] (-) TimerEvent: {}
+[53.774056] (-) TimerEvent: {}
+[53.874368] (-) TimerEvent: {}
+[53.974704] (-) TimerEvent: {}
+[54.075039] (-) TimerEvent: {}
+[54.175373] (-) TimerEvent: {}
+[54.275720] (-) TimerEvent: {}
+[54.376060] (-) TimerEvent: {}
+[54.476376] (-) TimerEvent: {}
+[54.576682] (-) TimerEvent: {}
+[54.676969] (-) TimerEvent: {}
+[54.777280] (-) TimerEvent: {}
+[54.877579] (-) TimerEvent: {}
+[54.977887] (-) TimerEvent: {}
+[55.078212] (-) TimerEvent: {}
+[55.178528] (-) TimerEvent: {}
+[55.278855] (-) TimerEvent: {}
+[55.379203] (-) TimerEvent: {}
+[55.479523] (-) TimerEvent: {}
+[55.579841] (-) TimerEvent: {}
+[55.680166] (-) TimerEvent: {}
+[55.780480] (-) TimerEvent: {}
+[55.880797] (-) TimerEvent: {}
+[55.981102] (-) TimerEvent: {}
+[56.081412] (-) TimerEvent: {}
+[56.181710] (-) TimerEvent: {}
+[56.282007] (-) TimerEvent: {}
+[56.382339] (-) TimerEvent: {}
+[56.482626] (-) TimerEvent: {}
+[56.582911] (-) TimerEvent: {}
+[56.683189] (-) TimerEvent: {}
+[56.783466] (-) TimerEvent: {}
+[56.883742] (-) TimerEvent: {}
+[56.984018] (-) TimerEvent: {}
+[57.084310] (-) TimerEvent: {}
+[57.184603] (-) TimerEvent: {}
+[57.284904] (-) TimerEvent: {}
+[57.385186] (-) TimerEvent: {}
+[57.485490] (-) TimerEvent: {}
+[57.585784] (-) TimerEvent: {}
+[57.686076] (-) TimerEvent: {}
+[57.786360] (-) TimerEvent: {}
+[57.886646] (-) TimerEvent: {}
+[57.986932] (-) TimerEvent: {}
+[58.087217] (-) TimerEvent: {}
+[58.187503] (-) TimerEvent: {}
+[58.287788] (-) TimerEvent: {}
+[58.388073] (-) TimerEvent: {}
+[58.488364] (-) TimerEvent: {}
+[58.588651] (-) TimerEvent: {}
+[58.688935] (-) TimerEvent: {}
+[58.789220] (-) TimerEvent: {}
+[58.889504] (-) TimerEvent: {}
+[58.989812] (-) TimerEvent: {}
+[59.090122] (-) TimerEvent: {}
+[59.190391] (-) TimerEvent: {}
+[59.290679] (-) TimerEvent: {}
+[59.390970] (-) TimerEvent: {}
+[59.491262] (-) TimerEvent: {}
+[59.591535] (-) TimerEvent: {}
+[59.691808] (-) TimerEvent: {}
+[59.792079] (-) TimerEvent: {}
+[59.892351] (-) TimerEvent: {}
+[59.992624] (-) TimerEvent: {}
+[60.092936] (-) TimerEvent: {}
+[60.193211] (-) TimerEvent: {}
+[60.293477] (-) TimerEvent: {}
+[60.393771] (-) TimerEvent: {}
+[60.494059] (-) TimerEvent: {}
+[60.594332] (-) TimerEvent: {}
+[60.694604] (-) TimerEvent: {}
+[60.794878] (-) TimerEvent: {}
+[60.895151] (-) TimerEvent: {}
+[60.995421] (-) TimerEvent: {}
+[61.095709] (-) TimerEvent: {}
+[61.195982] (-) TimerEvent: {}
+[61.296251] (-) TimerEvent: {}
+[61.396522] (-) TimerEvent: {}
+[61.460608] (moveit_visual_tools) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libmoveit_visual_tools.so\x1b[0m\n'}
+[61.496656] (-) TimerEvent: {}
+[61.597026] (-) TimerEvent: {}
+[61.697408] (-) TimerEvent: {}
+[61.797719] (-) TimerEvent: {}
+[61.898021] (-) TimerEvent: {}
+[61.950979] (moveit_visual_tools) StdoutLine: {'line': b'[ 66%] Built target moveit_visual_tools\n'}
+[61.963058] (moveit_visual_tools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target moveit_visual_tools_demo\x1b[0m\n'}
+[61.998135] (-) TimerEvent: {}
+[62.047964] (moveit_visual_tools) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/moveit_visual_tools_demo.dir/src/moveit_visual_tools_demo.cpp.o\x1b[0m\n'}
+[62.098275] (-) TimerEvent: {}
+[62.198579] (-) TimerEvent: {}
+[62.298876] (-) TimerEvent: {}
+[62.399174] (-) TimerEvent: {}
+[62.499476] (-) TimerEvent: {}
+[62.599783] (-) TimerEvent: {}
+[62.700058] (-) TimerEvent: {}
+[62.800365] (-) TimerEvent: {}
+[62.900669] (-) TimerEvent: {}
+[63.001044] (-) TimerEvent: {}
+[63.101327] (-) TimerEvent: {}
+[63.201621] (-) TimerEvent: {}
+[63.301915] (-) TimerEvent: {}
+[63.402208] (-) TimerEvent: {}
+[63.502518] (-) TimerEvent: {}
+[63.602826] (-) TimerEvent: {}
+[63.703108] (-) TimerEvent: {}
+[63.803406] (-) TimerEvent: {}
+[63.903706] (-) TimerEvent: {}
+[64.004001] (-) TimerEvent: {}
+[64.104299] (-) TimerEvent: {}
+[64.204615] (-) TimerEvent: {}
+[64.304929] (-) TimerEvent: {}
+[64.405208] (-) TimerEvent: {}
+[64.505501] (-) TimerEvent: {}
+[64.605794] (-) TimerEvent: {}
+[64.706085] (-) TimerEvent: {}
+[64.806382] (-) TimerEvent: {}
+[64.906659] (-) TimerEvent: {}
+[65.006953] (-) TimerEvent: {}
+[65.107503] (-) TimerEvent: {}
+[65.207765] (-) TimerEvent: {}
+[65.308067] (-) TimerEvent: {}
+[65.408361] (-) TimerEvent: {}
+[65.508667] (-) TimerEvent: {}
+[65.608985] (-) TimerEvent: {}
+[65.709309] (-) TimerEvent: {}
+[65.809613] (-) TimerEvent: {}
+[65.909897] (-) TimerEvent: {}
+[66.010180] (-) TimerEvent: {}
+[66.110476] (-) TimerEvent: {}
+[66.210759] (-) TimerEvent: {}
+[66.311034] (-) TimerEvent: {}
+[66.411319] (-) TimerEvent: {}
+[66.511600] (-) TimerEvent: {}
+[66.611898] (-) TimerEvent: {}
+[66.712200] (-) TimerEvent: {}
+[66.812499] (-) TimerEvent: {}
+[66.912791] (-) TimerEvent: {}
+[67.013099] (-) TimerEvent: {}
+[67.113370] (-) TimerEvent: {}
+[67.213657] (-) TimerEvent: {}
+[67.313940] (-) TimerEvent: {}
+[67.414225] (-) TimerEvent: {}
+[67.514523] (-) TimerEvent: {}
+[67.614812] (-) TimerEvent: {}
+[67.715094] (-) TimerEvent: {}
+[67.815392] (-) TimerEvent: {}
+[67.915690] (-) TimerEvent: {}
+[68.015976] (-) TimerEvent: {}
+[68.116259] (-) TimerEvent: {}
+[68.216564] (-) TimerEvent: {}
+[68.316863] (-) TimerEvent: {}
+[68.417157] (-) TimerEvent: {}
+[68.517438] (-) TimerEvent: {}
+[68.617714] (-) TimerEvent: {}
+[68.717997] (-) TimerEvent: {}
+[68.818287] (-) TimerEvent: {}
+[68.918610] (-) TimerEvent: {}
+[69.018921] (-) TimerEvent: {}
+[69.119231] (-) TimerEvent: {}
+[69.219561] (-) TimerEvent: {}
+[69.319930] (-) TimerEvent: {}
+[69.420262] (-) TimerEvent: {}
+[69.520592] (-) TimerEvent: {}
+[69.620897] (-) TimerEvent: {}
+[69.721197] (-) TimerEvent: {}
+[69.821496] (-) TimerEvent: {}
+[69.921792] (-) TimerEvent: {}
+[70.022098] (-) TimerEvent: {}
+[70.122442] (-) TimerEvent: {}
+[70.222773] (-) TimerEvent: {}
+[70.323096] (-) TimerEvent: {}
+[70.423412] (-) TimerEvent: {}
+[70.523696] (-) TimerEvent: {}
+[70.623992] (-) TimerEvent: {}
+[70.724304] (-) TimerEvent: {}
+[70.824619] (-) TimerEvent: {}
+[70.924914] (-) TimerEvent: {}
+[71.025202] (-) TimerEvent: {}
+[71.125490] (-) TimerEvent: {}
+[71.225799] (-) TimerEvent: {}
+[71.326091] (-) TimerEvent: {}
+[71.426386] (-) TimerEvent: {}
+[71.526681] (-) TimerEvent: {}
+[71.626982] (-) TimerEvent: {}
+[71.653038] (moveit_visual_tools) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable moveit_visual_tools_demo\x1b[0m\n'}
+[71.727124] (-) TimerEvent: {}
+[71.827454] (-) TimerEvent: {}
+[71.927763] (-) TimerEvent: {}
+[72.028059] (-) TimerEvent: {}
+[72.128371] (-) TimerEvent: {}
+[72.228727] (-) TimerEvent: {}
+[72.329094] (-) TimerEvent: {}
+[72.429495] (-) TimerEvent: {}
+[72.498417] (moveit_visual_tools) StdoutLine: {'line': b'[100%] Built target moveit_visual_tools_demo\n'}
+[72.513036] (moveit_visual_tools) CommandEnded: {'returncode': 0}
+[72.529666] (-) TimerEvent: {}
+[72.553104] (moveit_visual_tools) JobProgress: {'identifier': 'moveit_visual_tools', 'progress': 'install'}
+[72.553414] (moveit_visual_tools) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bettanin/ws_moveit2/build/moveit_visual_tools'], 'cwd': '/home/bettanin/ws_moveit2/build/moveit_visual_tools', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bettanin'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1760'), ('XDG_SESSION_TYPE', 'x11'), ('KIGITHUB', 'https://github.com/KiCad'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bettanin'), ('OLDPWD', '/home/bettanin/ws_moveit2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1467'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bettanin'), ('JOURNAL_STREAM', '8:54361'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'bettanin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1809,unix/ubuntu:/tmp/.ICE-unix/1809'), ('INVOCATION_ID', '4a2b9615da8043bd945bae0d5ea9b828'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/14bc55e0_d3aa_4d97_ad83_3439e1b14a34'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bettanin/ws_moveit2/build/moveit_visual_tools'), ('KICAD_PATH', '/usr/share/kicad'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy')]), 'shell': False}
+[72.565476] (moveit_visual_tools) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[72.565783] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/environment/library_path.sh\n'}
+[72.566031] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/environment/library_path.dsv\n'}
+[72.566357] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/lib/libmoveit_visual_tools.so\n'}
+[72.568074] (moveit_visual_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ws_moveit2/install/moveit_visual_tools/lib/libmoveit_visual_tools.so" to ""\n'}
+[72.568314] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/lib/moveit_visual_tools/moveit_visual_tools_demo\n'}
+[72.569163] (moveit_visual_tools) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ws_moveit2/install/moveit_visual_tools/lib/moveit_visual_tools/moveit_visual_tools_demo" to ""\n'}
+[72.569519] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/include\n'}
+[72.569768] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools\n'}
+[72.569917] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools/imarker_end_effector.h\n'}
+[72.570045] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools/imarker_robot_state.h\n'}
+[72.570151] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h\n'}
+[72.570248] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/launch\n'}
+[72.570384] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/launch/demo_rviz.launch.py\n'}
+[72.570537] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/launch/demo.rviz\n'}
+[72.570626] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources\n'}
+[72.570728] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources/demo.png\n'}
+[72.570840] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources/screenshot.png\n'}
+[72.570950] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources/rrbot.urdf\n'}
+[72.571059] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources/rrbot.srdf\n'}
+[72.571146] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources/demo_mesh.stl\n'}
+[72.571377] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/ament_index/resource_index/package_run_dependencies/moveit_visual_tools\n'}
+[72.571655] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/ament_index/resource_index/parent_prefix_path/moveit_visual_tools\n'}
+[72.571849] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/environment/ament_prefix_path.sh\n'}
+[72.572193] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/environment/ament_prefix_path.dsv\n'}
+[72.572447] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/environment/path.sh\n'}
+[72.572596] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/environment/path.dsv\n'}
+[72.572721] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.bash\n'}
+[72.573003] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.sh\n'}
+[72.573224] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.zsh\n'}
+[72.573469] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.dsv\n'}
+[72.573716] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/package.dsv\n'}
+[72.573823] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/ament_index/resource_index/packages/moveit_visual_tools\n'}
+[72.574047] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake/export_moveit_visual_toolsExport.cmake\n'}
+[72.574319] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake/export_moveit_visual_toolsExport-release.cmake\n'}
+[72.574561] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[72.574750] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[72.574958] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig.cmake\n'}
+[72.575103] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig-version.cmake\n'}
+[72.575297] (moveit_visual_tools) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/package.xml\n'}
+[72.581212] (moveit_visual_tools) CommandEnded: {'returncode': 0}
+[72.629831] (-) TimerEvent: {}
+[72.656048] (moveit_visual_tools) JobEnded: {'identifier': 'moveit_visual_tools', 'rc': 0}
+[72.658473] (moveit2_tutorials) JobStarted: {'identifier': 'moveit2_tutorials'}
+[72.669456] (moveit2_tutorials) JobProgress: {'identifier': 'moveit2_tutorials', 'progress': 'cmake'}
+[72.669654] (moveit2_tutorials) Command: {'cmd': ['/usr/bin/cmake', '/home/bettanin/ws_moveit2/src/moveit2_tutorials', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_INSTALL_PREFIX=/home/bettanin/ws_moveit2/install/moveit2_tutorials'], 'cwd': '/home/bettanin/ws_moveit2/build/moveit2_tutorials', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bettanin'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1760'), ('XDG_SESSION_TYPE', 'x11'), ('KIGITHUB', 'https://github.com/KiCad'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bettanin/ws_moveit2/install/moveit_visual_tools/lib:/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bettanin'), ('OLDPWD', '/home/bettanin/ws_moveit2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1467'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bettanin'), ('JOURNAL_STREAM', '8:54361'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'bettanin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1809,unix/ubuntu:/tmp/.ICE-unix/1809'), ('INVOCATION_ID', '4a2b9615da8043bd945bae0d5ea9b828'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/14bc55e0_d3aa_4d97_ad83_3439e1b14a34'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bettanin/ws_moveit2/build/moveit2_tutorials'), ('KICAD_PATH', '/usr/share/kicad'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy')]), 'shell': False}
+[72.721694] (moveit2_tutorials) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[72.729897] (-) TimerEvent: {}
+[72.772600] (moveit2_tutorials) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[72.776755] (moveit2_tutorials) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[72.830033] (-) TimerEvent: {}
+[72.840738] (moveit2_tutorials) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[72.841562] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[72.908738] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[72.921292] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[72.921680] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[72.924270] (moveit2_tutorials) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[72.930144] (-) TimerEvent: {}
+[73.005161] (moveit2_tutorials) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[73.006190] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[73.030280] (-) TimerEvent: {}
+[73.084290] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[73.095660] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[73.096180] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[73.098268] (moveit2_tutorials) StdoutLine: {'line': b'-- Found moveit_common: 2.2.3 (/opt/ros/foxy/share/moveit_common/cmake)\n'}
+[73.100342] (moveit2_tutorials) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[73.123683] (moveit2_tutorials) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[73.123831] (moveit2_tutorials) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[73.130388] (-) TimerEvent: {}
+[73.230619] (-) TimerEvent: {}
+[73.330886] (-) TimerEvent: {}
+[73.431163] (-) TimerEvent: {}
+[73.531433] (-) TimerEvent: {}
+[73.631711] (-) TimerEvent: {}
+[73.632281] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time thread \n'}
+[73.635614] (moveit2_tutorials) StdoutLine: {'line': b'-- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)\n'}
+[73.666354] (moveit2_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[73.673162] (moveit2_tutorials) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[73.731859] (-) TimerEvent: {}
+[73.748531] (moveit2_tutorials) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[73.777865] (moveit2_tutorials) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[73.831973] (-) TimerEvent: {}
+[73.849747] (moveit2_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[73.932123] (-) TimerEvent: {}
+[74.032392] (-) TimerEvent: {}
+[74.132659] (-) TimerEvent: {}
+[74.232882] (-) TimerEvent: {}
+[74.243958] (moveit2_tutorials) StdoutLine: {'line': b'-- Found moveit_core: 2.2.3 (/opt/ros/foxy/share/moveit_core/cmake)\n'}
+[74.259561] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[74.277316] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem \n'}
+[74.332993] (-) TimerEvent: {}
+[74.341812] (moveit2_tutorials) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[74.343174] (moveit2_tutorials) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[74.344612] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[74.433125] (-) TimerEvent: {}
+[74.533399] (-) TimerEvent: {}
+[74.543857] (moveit2_tutorials) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[74.633527] (-) TimerEvent: {}
+[74.708172] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[74.733648] (-) TimerEvent: {}
+[74.833912] (-) TimerEvent: {}
+[74.934182] (-) TimerEvent: {}
+[75.034444] (-) TimerEvent: {}
+[75.134705] (-) TimerEvent: {}
+[75.234971] (-) TimerEvent: {}
+[75.335215] (-) TimerEvent: {}
+[75.435476] (-) TimerEvent: {}
+[75.535737] (-) TimerEvent: {}
+[75.635994] (-) TimerEvent: {}
+[75.736256] (-) TimerEvent: {}
+[75.836525] (-) TimerEvent: {}
+[75.936781] (-) TimerEvent: {}
+[76.037073] (-) TimerEvent: {}
+[76.137343] (-) TimerEvent: {}
+[76.237625] (-) TimerEvent: {}
+[76.254632] (moveit2_tutorials) StdoutLine: {'line': b'-- Found moveit_ros_planning: 2.2.3 (/opt/ros/foxy/share/moveit_ros_planning/cmake)\n'}
+[76.259391] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread chrono \n'}
+[76.337757] (-) TimerEvent: {}
+[76.438029] (-) TimerEvent: {}
+[76.510444] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread \n'}
+[76.538139] (-) TimerEvent: {}
+[76.638371] (-) TimerEvent: {}
+[76.738622] (-) TimerEvent: {}
+[76.838884] (-) TimerEvent: {}
+[76.939144] (-) TimerEvent: {}
+[77.039404] (-) TimerEvent: {}
+[77.061274] (moveit2_tutorials) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.2.3 (/opt/ros/foxy/share/moveit_ros_planning_interface/cmake)\n'}
+[77.064112] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  \n'}
+[77.069284] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: date_time filesystem program_options system thread \n'}
+[77.139521] (-) TimerEvent: {}
+[77.239766] (-) TimerEvent: {}
+[77.340032] (-) TimerEvent: {}
+[77.404696] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread system filesystem regex date_time program_options \n'}
+[77.440143] (-) TimerEvent: {}
+[77.540382] (-) TimerEvent: {}
+[77.640639] (-) TimerEvent: {}
+[77.740881] (-) TimerEvent: {}
+[77.744657] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread \n'}
+[77.841012] (-) TimerEvent: {}
+[77.941291] (-) TimerEvent: {}
+[78.041560] (-) TimerEvent: {}
+[78.141817] (-) TimerEvent: {}
+[78.242103] (-) TimerEvent: {}
+[78.298607] (moveit2_tutorials) StdoutLine: {'line': b'-- Found moveit_ros_perception: 2.2.3 (/opt/ros/foxy/share/moveit_ros_perception/cmake)\n'}
+[78.301877] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread \n'}
+[78.342216] (-) TimerEvent: {}
+[78.442453] (-) TimerEvent: {}
+[78.542718] (-) TimerEvent: {}
+[78.642968] (-) TimerEvent: {}
+[78.743242] (-) TimerEvent: {}
+[78.813519] (moveit2_tutorials) StdoutLine: {'line': b'-- Found moveit_servo: 2.2.3 (/opt/ros/foxy/share/moveit_servo/cmake)\n'}
+[78.843354] (-) TimerEvent: {}
+[78.943600] (-) TimerEvent: {}
+[79.043859] (-) TimerEvent: {}
+[79.075800] (moveit2_tutorials) StdoutLine: {'line': b'-- Found interactive_markers: 2.1.3 (/opt/ros/foxy/share/interactive_markers/cmake)\n'}
+[79.095815] (moveit2_tutorials) StdoutLine: {'line': b'-- Found rviz_visual_tools: 4.0.3 (/home/bettanin/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/cmake)\n'}
+[79.143971] (-) TimerEvent: {}
+[79.191709] (moveit2_tutorials) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[79.193873] (moveit2_tutorials) StdoutLine: {'line': b'-- Found OGRE\n'}
+[79.194006] (moveit2_tutorials) StdoutLine: {'line': b'--   static     : OFF\n'}
+[79.194105] (moveit2_tutorials) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[79.194296] (moveit2_tutorials) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[79.194490] (moveit2_tutorials) StdoutLine: {'line': b'--   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[79.194557] (moveit2_tutorials) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[79.194614] (moveit2_tutorials) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib\n'}
+[79.194669] (moveit2_tutorials) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[79.194743] (moveit2_tutorials) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[79.194816] (moveit2_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[79.195022] (moveit2_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[79.195094] (moveit2_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[79.195155] (moveit2_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[79.213562] (moveit2_tutorials) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[79.217945] (moveit2_tutorials) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[79.244095] (-) TimerEvent: {}
+[79.303948] (moveit2_tutorials) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[79.304263] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[79.344208] (-) TimerEvent: {}
+[79.375987] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[79.376327] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[79.441586] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[79.441863] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for connect\n'}
+[79.444308] (-) TimerEvent: {}
+[79.507637] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[79.507917] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for remove\n'}
+[79.544451] (-) TimerEvent: {}
+[79.573334] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[79.573578] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[79.638836] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[79.639064] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[79.644555] (-) TimerEvent: {}
+[79.705687] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[79.708802] (moveit2_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[79.708899] (moveit2_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND\n'}
+[79.744672] (-) TimerEvent: {}
+[79.762256] (moveit2_tutorials) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[79.844808] (-) TimerEvent: {}
+[79.945080] (-) TimerEvent: {}
+[80.045359] (-) TimerEvent: {}
+[80.145623] (-) TimerEvent: {}
+[80.159692] (moveit2_tutorials) StdoutLine: {'line': b'-- Found moveit_visual_tools: 4.0.0 (/home/bettanin/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake)\n'}
+[80.245754] (-) TimerEvent: {}
+[80.346018] (-) TimerEvent: {}
+[80.446272] (-) TimerEvent: {}
+[80.546526] (-) TimerEvent: {}
+[80.646776] (-) TimerEvent: {}
+[80.747025] (-) TimerEvent: {}
+[80.847281] (-) TimerEvent: {}
+[80.947539] (-) TimerEvent: {}
+[81.047801] (-) TimerEvent: {}
+[81.148063] (-) TimerEvent: {}
+[81.248338] (-) TimerEvent: {}
+[81.348621] (-) TimerEvent: {}
+[81.448938] (-) TimerEvent: {}
+[81.549216] (-) TimerEvent: {}
+[81.649471] (-) TimerEvent: {}
+[81.749728] (-) TimerEvent: {}
+[81.849995] (-) TimerEvent: {}
+[81.950248] (-) TimerEvent: {}
+[82.050511] (-) TimerEvent: {}
+[82.150778] (-) TimerEvent: {}
+[82.251036] (-) TimerEvent: {}
+[82.351313] (-) TimerEvent: {}
+[82.451579] (-) TimerEvent: {}
+[82.551840] (-) TimerEvent: {}
+[82.652112] (-) TimerEvent: {}
+[82.752376] (-) TimerEvent: {}
+[82.852648] (-) TimerEvent: {}
+[82.952967] (-) TimerEvent: {}
+[83.053228] (-) TimerEvent: {}
+[83.153500] (-) TimerEvent: {}
+[83.253763] (-) TimerEvent: {}
+[83.330141] (moveit2_tutorials) StdoutLine: {'line': b'-- Configuring done\n'}
+[83.353894] (-) TimerEvent: {}
+[83.454174] (-) TimerEvent: {}
+[83.554462] (-) TimerEvent: {}
+[83.654749] (-) TimerEvent: {}
+[83.755037] (-) TimerEvent: {}
+[83.855326] (-) TimerEvent: {}
+[83.955610] (-) TimerEvent: {}
+[84.021114] (moveit2_tutorials) StdoutLine: {'line': b'-- Generating done\n'}
+[84.024207] (moveit2_tutorials) StdoutLine: {'line': b'-- Build files have been written to: /home/bettanin/ws_moveit2/build/moveit2_tutorials\n'}
+[84.042466] (moveit2_tutorials) CommandEnded: {'returncode': 0}
+[84.043326] (moveit2_tutorials) JobProgress: {'identifier': 'moveit2_tutorials', 'progress': 'build'}
+[84.045176] (moveit2_tutorials) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bettanin/ws_moveit2/build/moveit2_tutorials', '--', '-j8', '-l8'], 'cwd': '/home/bettanin/ws_moveit2/build/moveit2_tutorials', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bettanin'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1760'), ('XDG_SESSION_TYPE', 'x11'), ('KIGITHUB', 'https://github.com/KiCad'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bettanin/ws_moveit2/install/moveit_visual_tools/lib:/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bettanin'), ('OLDPWD', '/home/bettanin/ws_moveit2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1467'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bettanin'), ('JOURNAL_STREAM', '8:54361'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'bettanin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1809,unix/ubuntu:/tmp/.ICE-unix/1809'), ('INVOCATION_ID', '4a2b9615da8043bd945bae0d5ea9b828'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/14bc55e0_d3aa_4d97_ad83_3439e1b14a34'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bettanin/ws_moveit2/build/moveit2_tutorials'), ('KICAD_PATH', '/usr/share/kicad'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy')]), 'shell': False}
+[84.055740] (-) TimerEvent: {}
+[84.099693] (moveit2_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target planning_scene_tutorial\x1b[0m\n'}
+[84.099976] (moveit2_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target move_group_interface_tutorial\x1b[0m\n'}
+[84.100149] (moveit2_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target motion_planning_api_tutorial\x1b[0m\n'}
+[84.100275] (moveit2_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target moveit_cpp_tutorial\x1b[0m\n'}
+[84.100457] (moveit2_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target servo_keyboard_input\x1b[0m\n'}
+[84.100575] (moveit2_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target servo_cpp_interface_demo\x1b[0m\n'}
+[84.100709] (moveit2_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target planning_scene_ros_api_tutorial\x1b[0m\n'}
+[84.103196] (moveit2_tutorials) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target robot_model_and_robot_state_tutorial\x1b[0m\n'}
+[84.155841] (-) TimerEvent: {}
+[84.187783] (moveit2_tutorials) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object doc/realtime_servo/CMakeFiles/servo_keyboard_input.dir/src/servo_keyboard_input.cpp.o\x1b[0m\n'}
+[84.247495] (moveit2_tutorials) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object doc/planning_scene/CMakeFiles/planning_scene_tutorial.dir/src/planning_scene_tutorial.cpp.o\x1b[0m\n'}
+[84.255811] (moveit2_tutorials) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object doc/planning_scene_ros_api/CMakeFiles/planning_scene_ros_api_tutorial.dir/src/planning_scene_ros_api_tutorial.cpp.o\x1b[0m\n'}
+[84.256070] (-) TimerEvent: {}
+[84.258682] (moveit2_tutorials) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object doc/robot_model_and_robot_state/CMakeFiles/robot_model_and_robot_state_tutorial.dir/src/robot_model_and_robot_state_tutorial.cpp.o\x1b[0m\n'}
+[84.275715] (moveit2_tutorials) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object doc/realtime_servo/CMakeFiles/servo_cpp_interface_demo.dir/src/servo_cpp_interface_demo.cpp.o\x1b[0m\n'}
+[84.323092] (moveit2_tutorials) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object doc/moveit_cpp/CMakeFiles/moveit_cpp_tutorial.dir/src/moveit_cpp_tutorial.cpp.o\x1b[0m\n'}
+[84.330326] (moveit2_tutorials) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object doc/motion_planning_api/CMakeFiles/motion_planning_api_tutorial.dir/src/motion_planning_api_tutorial.cpp.o\x1b[0m\n'}
+[84.347702] (moveit2_tutorials) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object doc/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/src/move_group_interface_tutorial.cpp.o\x1b[0m\n'}
+[84.356193] (-) TimerEvent: {}
+[84.456573] (-) TimerEvent: {}
+[84.557002] (-) TimerEvent: {}
+[84.657388] (-) TimerEvent: {}
+[84.757819] (-) TimerEvent: {}
+[84.858213] (-) TimerEvent: {}
+[84.958660] (-) TimerEvent: {}
+[85.059106] (-) TimerEvent: {}
+[85.159523] (-) TimerEvent: {}
+[85.259924] (-) TimerEvent: {}
+[85.360344] (-) TimerEvent: {}
+[85.460776] (-) TimerEvent: {}
+[85.561262] (-) TimerEvent: {}
+[85.661811] (-) TimerEvent: {}
+[85.762225] (-) TimerEvent: {}
+[85.862636] (-) TimerEvent: {}
+[85.963047] (-) TimerEvent: {}
+[86.063527] (-) TimerEvent: {}
+[86.163995] (-) TimerEvent: {}
+[86.264461] (-) TimerEvent: {}
+[86.364885] (-) TimerEvent: {}
+[86.465338] (-) TimerEvent: {}
+[86.565805] (-) TimerEvent: {}
+[86.666204] (-) TimerEvent: {}
+[86.766618] (-) TimerEvent: {}
+[86.867059] (-) TimerEvent: {}
+[86.967502] (-) TimerEvent: {}
+[87.067914] (-) TimerEvent: {}
+[87.168327] (-) TimerEvent: {}
+[87.268793] (-) TimerEvent: {}
+[87.369237] (-) TimerEvent: {}
+[87.469662] (-) TimerEvent: {}
+[87.570094] (-) TimerEvent: {}
+[87.670532] (-) TimerEvent: {}
+[87.770949] (-) TimerEvent: {}
+[87.871355] (-) TimerEvent: {}
+[87.971800] (-) TimerEvent: {}
+[88.072257] (-) TimerEvent: {}
+[88.172740] (-) TimerEvent: {}
+[88.273173] (-) TimerEvent: {}
+[88.373623] (-) TimerEvent: {}
+[88.474045] (-) TimerEvent: {}
+[88.574588] (-) TimerEvent: {}
+[88.675191] (-) TimerEvent: {}
+[88.775638] (-) TimerEvent: {}
+[88.876075] (-) TimerEvent: {}
+[88.976519] (-) TimerEvent: {}
+[89.076962] (-) TimerEvent: {}
+[89.177383] (-) TimerEvent: {}
+[89.277826] (-) TimerEvent: {}
+[89.378254] (-) TimerEvent: {}
+[89.478694] (-) TimerEvent: {}
+[89.579162] (-) TimerEvent: {}
+[89.679591] (-) TimerEvent: {}
+[89.780031] (-) TimerEvent: {}
+[89.880490] (-) TimerEvent: {}
+[89.980916] (-) TimerEvent: {}
+[90.081315] (-) TimerEvent: {}
+[90.181721] (-) TimerEvent: {}
+[90.282161] (-) TimerEvent: {}
+[90.382606] (-) TimerEvent: {}
+[90.483038] (-) TimerEvent: {}
+[90.583454] (-) TimerEvent: {}
+[90.683916] (-) TimerEvent: {}
+[90.784346] (-) TimerEvent: {}
+[90.884826] (-) TimerEvent: {}
+[90.985243] (-) TimerEvent: {}
+[91.085666] (-) TimerEvent: {}
+[91.186108] (-) TimerEvent: {}
+[91.286558] (-) TimerEvent: {}
+[91.386994] (-) TimerEvent: {}
+[91.487427] (-) TimerEvent: {}
+[91.587876] (-) TimerEvent: {}
+[91.688320] (-) TimerEvent: {}
+[91.788763] (-) TimerEvent: {}
+[91.889191] (-) TimerEvent: {}
+[91.989624] (-) TimerEvent: {}
+[92.090047] (-) TimerEvent: {}
+[92.190477] (-) TimerEvent: {}
+[92.290909] (-) TimerEvent: {}
+[92.391366] (-) TimerEvent: {}
+[92.491816] (-) TimerEvent: {}
+[92.592270] (-) TimerEvent: {}
+[92.692743] (-) TimerEvent: {}
+[92.793165] (-) TimerEvent: {}
+[92.893593] (-) TimerEvent: {}
+[92.994042] (-) TimerEvent: {}
+[93.094483] (-) TimerEvent: {}
+[93.194925] (-) TimerEvent: {}
+[93.295382] (-) TimerEvent: {}
+[93.395849] (-) TimerEvent: {}
+[93.496302] (-) TimerEvent: {}
+[93.596758] (-) TimerEvent: {}
+[93.697216] (-) TimerEvent: {}
+[93.797699] (-) TimerEvent: {}
+[93.898151] (-) TimerEvent: {}
+[93.998700] (-) TimerEvent: {}
+[94.099109] (-) TimerEvent: {}
+[94.199554] (-) TimerEvent: {}
+[94.299990] (-) TimerEvent: {}
+[94.400396] (-) TimerEvent: {}
+[94.500813] (-) TimerEvent: {}
+[94.601288] (-) TimerEvent: {}
+[94.701764] (-) TimerEvent: {}
+[94.802197] (-) TimerEvent: {}
+[94.902671] (-) TimerEvent: {}
+[95.003121] (-) TimerEvent: {}
+[95.103576] (-) TimerEvent: {}
+[95.148090] (moveit2_tutorials) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX executable servo_keyboard_input\x1b[0m\n'}
+[95.203702] (-) TimerEvent: {}
+[95.304151] (-) TimerEvent: {}
+[95.404613] (-) TimerEvent: {}
+[95.505115] (-) TimerEvent: {}
+[95.605786] (-) TimerEvent: {}
+[95.706367] (-) TimerEvent: {}
+[95.806959] (-) TimerEvent: {}
+[95.907589] (-) TimerEvent: {}
+[96.008214] (-) TimerEvent: {}
+[96.108792] (-) TimerEvent: {}
+[96.174462] (moveit2_tutorials) StdoutLine: {'line': b'[ 56%] Built target servo_keyboard_input\n'}
+[96.209053] (-) TimerEvent: {}
+[96.309635] (-) TimerEvent: {}
+[96.410260] (-) TimerEvent: {}
+[96.510830] (-) TimerEvent: {}
+[96.611383] (-) TimerEvent: {}
+[96.711913] (-) TimerEvent: {}
+[96.812467] (-) TimerEvent: {}
+[96.913041] (-) TimerEvent: {}
+[97.013606] (-) TimerEvent: {}
+[97.114172] (-) TimerEvent: {}
+[97.214715] (-) TimerEvent: {}
+[97.315283] (-) TimerEvent: {}
+[97.415868] (-) TimerEvent: {}
+[97.516436] (-) TimerEvent: {}
+[97.617009] (-) TimerEvent: {}
+[97.717570] (-) TimerEvent: {}
+[97.745631] (moveit2_tutorials) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable robot_model_and_robot_state_tutorial\x1b[0m\n'}
+[97.817754] (-) TimerEvent: {}
+[97.918352] (-) TimerEvent: {}
+[98.018938] (-) TimerEvent: {}
+[98.119493] (-) TimerEvent: {}
+[98.220049] (-) TimerEvent: {}
+[98.320615] (-) TimerEvent: {}
+[98.421186] (-) TimerEvent: {}
+[98.521779] (-) TimerEvent: {}
+[98.622338] (-) TimerEvent: {}
+[98.722884] (-) TimerEvent: {}
+[98.823446] (-) TimerEvent: {}
+[98.887564] (moveit2_tutorials) StdoutLine: {'line': b'[ 62%] Built target robot_model_and_robot_state_tutorial\n'}
+[98.923578] (-) TimerEvent: {}
+[99.024005] (-) TimerEvent: {}
+[99.124509] (-) TimerEvent: {}
+[99.224999] (-) TimerEvent: {}
+[99.229434] (moveit2_tutorials) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX executable planning_scene_tutorial\x1b[0m\n'}
+[99.325121] (-) TimerEvent: {}
+[99.425597] (-) TimerEvent: {}
+[99.526124] (-) TimerEvent: {}
+[99.626616] (-) TimerEvent: {}
+[99.727056] (-) TimerEvent: {}
+[99.827557] (-) TimerEvent: {}
+[99.927998] (-) TimerEvent: {}
+[100.028436] (-) TimerEvent: {}
+[100.101049] (moveit2_tutorials) StdoutLine: {'line': b'[ 68%] Built target planning_scene_tutorial\n'}
+[100.128576] (-) TimerEvent: {}
+[100.228894] (-) TimerEvent: {}
+[100.329228] (-) TimerEvent: {}
+[100.429570] (-) TimerEvent: {}
+[100.529900] (-) TimerEvent: {}
+[100.630278] (-) TimerEvent: {}
+[100.730645] (-) TimerEvent: {}
+[100.831010] (-) TimerEvent: {}
+[100.931398] (-) TimerEvent: {}
+[101.031791] (-) TimerEvent: {}
+[101.132184] (-) TimerEvent: {}
+[101.232565] (-) TimerEvent: {}
+[101.332985] (-) TimerEvent: {}
+[101.433380] (-) TimerEvent: {}
+[101.533763] (-) TimerEvent: {}
+[101.634165] (-) TimerEvent: {}
+[101.734551] (-) TimerEvent: {}
+[101.834944] (-) TimerEvent: {}
+[101.935333] (-) TimerEvent: {}
+[102.035727] (-) TimerEvent: {}
+[102.136126] (-) TimerEvent: {}
+[102.236545] (-) TimerEvent: {}
+[102.336968] (-) TimerEvent: {}
+[102.437367] (-) TimerEvent: {}
+[102.537764] (-) TimerEvent: {}
+[102.638157] (-) TimerEvent: {}
+[102.738526] (-) TimerEvent: {}
+[102.838906] (-) TimerEvent: {}
+[102.939301] (-) TimerEvent: {}
+[103.039700] (-) TimerEvent: {}
+[103.140090] (-) TimerEvent: {}
+[103.240507] (-) TimerEvent: {}
+[103.341005] (-) TimerEvent: {}
+[103.441483] (-) TimerEvent: {}
+[103.541894] (-) TimerEvent: {}
+[103.642322] (-) TimerEvent: {}
+[103.742722] (-) TimerEvent: {}
+[103.843109] (-) TimerEvent: {}
+[103.943494] (-) TimerEvent: {}
+[104.043867] (-) TimerEvent: {}
+[104.144256] (-) TimerEvent: {}
+[104.244635] (-) TimerEvent: {}
+[104.345036] (-) TimerEvent: {}
+[104.445437] (-) TimerEvent: {}
+[104.545860] (-) TimerEvent: {}
+[104.646258] (-) TimerEvent: {}
+[104.746640] (-) TimerEvent: {}
+[104.847042] (-) TimerEvent: {}
+[104.947439] (-) TimerEvent: {}
+[105.047853] (-) TimerEvent: {}
+[105.148279] (-) TimerEvent: {}
+[105.248669] (-) TimerEvent: {}
+[105.349067] (-) TimerEvent: {}
+[105.449440] (-) TimerEvent: {}
+[105.549849] (-) TimerEvent: {}
+[105.650263] (-) TimerEvent: {}
+[105.750790] (-) TimerEvent: {}
+[105.851203] (-) TimerEvent: {}
+[105.951613] (-) TimerEvent: {}
+[105.972609] (moveit2_tutorials) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable planning_scene_ros_api_tutorial\x1b[0m\n'}
+[106.050411] (moveit2_tutorials) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX executable move_group_interface_tutorial\x1b[0m\n'}
+[106.051713] (-) TimerEvent: {}
+[106.152151] (-) TimerEvent: {}
+[106.252618] (-) TimerEvent: {}
+[106.353036] (-) TimerEvent: {}
+[106.453553] (-) TimerEvent: {}
+[106.554103] (-) TimerEvent: {}
+[106.654559] (-) TimerEvent: {}
+[106.755046] (-) TimerEvent: {}
+[106.855571] (-) TimerEvent: {}
+[106.956119] (-) TimerEvent: {}
+[107.056512] (-) TimerEvent: {}
+[107.156958] (-) TimerEvent: {}
+[107.257422] (-) TimerEvent: {}
+[107.357871] (-) TimerEvent: {}
+[107.442453] (moveit2_tutorials) StdoutLine: {'line': b'[ 81%] Built target move_group_interface_tutorial\n'}
+[107.457993] (-) TimerEvent: {}
+[107.558381] (-) TimerEvent: {}
+[107.628264] (moveit2_tutorials) StdoutLine: {'line': b'[ 81%] Built target planning_scene_ros_api_tutorial\n'}
+[107.658495] (-) TimerEvent: {}
+[107.758855] (-) TimerEvent: {}
+[107.859238] (-) TimerEvent: {}
+[107.959600] (-) TimerEvent: {}
+[108.059952] (-) TimerEvent: {}
+[108.160303] (-) TimerEvent: {}
+[108.260668] (-) TimerEvent: {}
+[108.361028] (-) TimerEvent: {}
+[108.461373] (-) TimerEvent: {}
+[108.561712] (-) TimerEvent: {}
+[108.662058] (-) TimerEvent: {}
+[108.762408] (-) TimerEvent: {}
+[108.862764] (-) TimerEvent: {}
+[108.953404] (moveit2_tutorials) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable moveit_cpp_tutorial\x1b[0m\n'}
+[108.962878] (-) TimerEvent: {}
+[108.976017] (moveit2_tutorials) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable servo_cpp_interface_demo\x1b[0m\n'}
+[109.062999] (-) TimerEvent: {}
+[109.163354] (-) TimerEvent: {}
+[109.263745] (-) TimerEvent: {}
+[109.364179] (-) TimerEvent: {}
+[109.464640] (-) TimerEvent: {}
+[109.565078] (-) TimerEvent: {}
+[109.665536] (-) TimerEvent: {}
+[109.765921] (-) TimerEvent: {}
+[109.866314] (-) TimerEvent: {}
+[109.874919] (moveit2_tutorials) StdoutLine: {'line': b'[ 93%] Built target servo_cpp_interface_demo\n'}
+[109.966441] (-) TimerEvent: {}
+[110.066847] (-) TimerEvent: {}
+[110.139092] (moveit2_tutorials) StdoutLine: {'line': b'[ 93%] Built target moveit_cpp_tutorial\n'}
+[110.166950] (-) TimerEvent: {}
+[110.267248] (-) TimerEvent: {}
+[110.367541] (-) TimerEvent: {}
+[110.467834] (-) TimerEvent: {}
+[110.568122] (-) TimerEvent: {}
+[110.668421] (-) TimerEvent: {}
+[110.768706] (-) TimerEvent: {}
+[110.869032] (-) TimerEvent: {}
+[110.969322] (-) TimerEvent: {}
+[111.069607] (-) TimerEvent: {}
+[111.169887] (-) TimerEvent: {}
+[111.270170] (-) TimerEvent: {}
+[111.370458] (-) TimerEvent: {}
+[111.470792] (-) TimerEvent: {}
+[111.571063] (-) TimerEvent: {}
+[111.671332] (-) TimerEvent: {}
+[111.771596] (-) TimerEvent: {}
+[111.871865] (-) TimerEvent: {}
+[111.972139] (-) TimerEvent: {}
+[112.072430] (-) TimerEvent: {}
+[112.172740] (-) TimerEvent: {}
+[112.273026] (-) TimerEvent: {}
+[112.373299] (-) TimerEvent: {}
+[112.473573] (-) TimerEvent: {}
+[112.573845] (-) TimerEvent: {}
+[112.674112] (-) TimerEvent: {}
+[112.774386] (-) TimerEvent: {}
+[112.874678] (-) TimerEvent: {}
+[112.974970] (-) TimerEvent: {}
+[113.043887] (moveit2_tutorials) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable motion_planning_api_tutorial\x1b[0m\n'}
+[113.075103] (-) TimerEvent: {}
+[113.175392] (-) TimerEvent: {}
+[113.275706] (-) TimerEvent: {}
+[113.376007] (-) TimerEvent: {}
+[113.476311] (-) TimerEvent: {}
+[113.576638] (-) TimerEvent: {}
+[113.676942] (-) TimerEvent: {}
+[113.777249] (-) TimerEvent: {}
+[113.877621] (-) TimerEvent: {}
+[113.978024] (-) TimerEvent: {}
+[114.031629] (moveit2_tutorials) StdoutLine: {'line': b'[100%] Built target motion_planning_api_tutorial\n'}
+[114.045971] (moveit2_tutorials) CommandEnded: {'returncode': 0}
+[114.077526] (moveit2_tutorials) JobProgress: {'identifier': 'moveit2_tutorials', 'progress': 'install'}
+[114.079495] (moveit2_tutorials) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bettanin/ws_moveit2/build/moveit2_tutorials'], 'cwd': '/home/bettanin/ws_moveit2/build/moveit2_tutorials', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bettanin'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '1760'), ('XDG_SESSION_TYPE', 'x11'), ('KIGITHUB', 'https://github.com/KiCad'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bettanin/ws_moveit2/install/moveit_visual_tools/lib:/home/bettanin/ws_moveit2/install/rviz_visual_tools/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bettanin'), ('OLDPWD', '/home/bettanin/ws_moveit2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1467'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bettanin'), ('JOURNAL_STREAM', '8:54361'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'bettanin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1809,unix/ubuntu:/tmp/.ICE-unix/1809'), ('INVOCATION_ID', '4a2b9615da8043bd945bae0d5ea9b828'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/14bc55e0_d3aa_4d97_ad83_3439e1b14a34'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bettanin/ws_moveit2/build/moveit2_tutorials'), ('KICAD_PATH', '/usr/share/kicad'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/bettanin/ws_moveit2/install/moveit_visual_tools:/home/bettanin/ws_moveit2/install/rviz_visual_tools:/opt/ros/foxy')]), 'shell': False}
+[114.080568] (-) TimerEvent: {}
+[114.089016] (moveit2_tutorials) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[114.089269] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/ament_index/resource_index/package_run_dependencies/moveit2_tutorials\n'}
+[114.089497] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/ament_index/resource_index/parent_prefix_path/moveit2_tutorials\n'}
+[114.089714] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/environment/ament_prefix_path.sh\n'}
+[114.089909] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/environment/ament_prefix_path.dsv\n'}
+[114.090099] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/environment/path.sh\n'}
+[114.090278] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/environment/path.dsv\n'}
+[114.090414] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.bash\n'}
+[114.090525] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.sh\n'}
+[114.090662] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.zsh\n'}
+[114.090848] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.dsv\n'}
+[114.091120] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/package.dsv\n'}
+[114.091355] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/ament_index/resource_index/packages/moveit2_tutorials\n'}
+[114.091646] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[114.091837] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[114.092068] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/cmake/moveit2_tutorialsConfig.cmake\n'}
+[114.092247] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/cmake/moveit2_tutorialsConfig-version.cmake\n'}
+[114.092345] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/package.xml\n'}
+[114.092665] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/motion_planning_api_tutorial\n'}
+[114.093859] (moveit2_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/motion_planning_api_tutorial" to ""\n'}
+[114.093961] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch\n'}
+[114.094158] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/motion_planning_api_tutorial.launch.py\n'}
+[114.094297] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/move_group_interface_tutorial\n'}
+[114.094841] (moveit2_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/move_group_interface_tutorial" to ""\n'}
+[114.094933] (moveit2_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch\n'}
+[114.095002] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group.launch.py\n'}
+[114.095144] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group_interface_tutorial.launch.py\n'}
+[114.095263] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group.rviz\n'}
+[114.095558] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/moveit_cpp_tutorial\n'}
+[114.096144] (moveit2_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/moveit_cpp_tutorial" to ""\n'}
+[114.096217] (moveit2_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch\n'}
+[114.096286] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/moveit_cpp_tutorial.launch.py\n'}
+[114.096462] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/moveit_cpp_tutorial.rviz\n'}
+[114.096528] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/config\n'}
+[114.096587] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/config/moveit_cpp.yaml\n'}
+[114.096826] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/planning_scene_tutorial\n'}
+[114.097388] (moveit2_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/planning_scene_tutorial" to ""\n'}
+[114.097480] (moveit2_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch\n'}
+[114.097547] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/planning_scene_tutorial.launch.py\n'}
+[114.097790] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/planning_scene_ros_api_tutorial\n'}
+[114.098472] (moveit2_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/planning_scene_ros_api_tutorial" to ""\n'}
+[114.098650] (moveit2_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch\n'}
+[114.098723] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/planning_scene_ros_api_tutorial.launch.py\n'}
+[114.098878] (moveit2_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch\n'}
+[114.098967] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/demo.launch.py\n'}
+[114.099036] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/panda_moveit_config_demo_empty.rviz\n'}
+[114.099118] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/panda_moveit_config_demo.rviz\n'}
+[114.099321] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/servo_keyboard_input\n'}
+[114.099988] (moveit2_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/servo_keyboard_input" to ""\n'}
+[114.100109] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/servo_cpp_interface_demo\n'}
+[114.100840] (moveit2_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/servo_cpp_interface_demo" to ""\n'}
+[114.100962] (moveit2_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch\n'}
+[114.101029] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/servo_teleop.launch.py\n'}
+[114.101203] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/servo_server_panda.launch.py\n'}
+[114.101287] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/servo_cpp_interface_demo.launch.py\n'}
+[114.101350] (moveit2_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/config\n'}
+[114.101413] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/config/demo_rviz_config.rviz\n'}
+[114.101582] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/robot_model_and_robot_state_tutorial\n'}
+[114.102068] (moveit2_tutorials) StdoutLine: {'line': b'-- Set runtime path of "/home/bettanin/ws_moveit2/install/moveit2_tutorials/lib/moveit2_tutorials/robot_model_and_robot_state_tutorial" to ""\n'}
+[114.102178] (moveit2_tutorials) StdoutLine: {'line': b'-- Up-to-date: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch\n'}
+[114.102242] (moveit2_tutorials) StdoutLine: {'line': b'-- Installing: /home/bettanin/ws_moveit2/install/moveit2_tutorials/share/moveit2_tutorials/launch/robot_model_and_robot_state_tutorial.launch.py\n'}
+[114.106262] (moveit2_tutorials) CommandEnded: {'returncode': 0}
+[114.149515] (moveit2_tutorials) JobEnded: {'identifier': 'moveit2_tutorials', 'rc': 0}
+[114.150309] (-) EventReactorShutdown: {}
